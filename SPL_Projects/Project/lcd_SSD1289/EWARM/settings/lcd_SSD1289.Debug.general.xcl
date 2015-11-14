@@ -2,7 +2,7 @@
 
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armstlink.dll" 
 
-"D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_SSD1289\EWARM\Debug\Exe\Project.out" 
+"D:\git\lcd\SPL_Projects\Project\lcd_SSD1289\EWARM\Debug\Exe\Project.out" 
 
 --plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armbat.dll" 
 

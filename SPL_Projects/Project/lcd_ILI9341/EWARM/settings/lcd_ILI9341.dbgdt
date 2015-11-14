@@ -34,7 +34,7 @@
         
         
       <ShowCodeCoverage>1</ShowCodeCoverage><ShowInstrProfiling>1</ShowInstrProfiling></Disassembly>
-    <Memory><FindAsHex>0</FindAsHex></Memory><WATCH_1><expressions><item>BmpAddress</item><item>size</item><item>LCD_Currentfonts</item><item></item></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>70</item><item>100</item><item>100</item></col-widths></WATCH_1><Find-in-Files><ColumnWidth0>377</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>566</ColumnWidth2><ColumnWidth3>251</ColumnWidth3></Find-in-Files><QuickWatch><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>150</item><item>100</item><item>100</item></col-widths><QWatchHistory><item>LCD_Currentfonts</item></QWatchHistory></QuickWatch></Static>
+    <Memory><FindAsHex>0</FindAsHex></Memory><WATCH_1><expressions><item>BmpAddress</item><item>size</item><item>LCD_Currentfonts</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>70</item><item>100</item><item>100</item></col-widths></WATCH_1><Find-in-Files><ColumnWidth0>377</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>566</ColumnWidth2><ColumnWidth3>251</ColumnWidth3></Find-in-Files><QuickWatch><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>150</item><item>100</item><item>100</item></col-widths><QWatchHistory><item>LCD_Currentfonts</item></QWatchHistory></QuickWatch></Static>
     <Windows>
       
       

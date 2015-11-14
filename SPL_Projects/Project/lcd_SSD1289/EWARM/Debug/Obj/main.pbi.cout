@@ -1,16 +1,16 @@
-"D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_SSD1289\main.c"
+"D:\git\lcd\SPL_Projects\Project\lcd_SSD1289\main.c"
 -std=c99
 -ferror-limit=100
 -I
-D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_SSD1289\EWARM\..
+D:\git\lcd\SPL_Projects\Project\lcd_SSD1289\EWARM\..
 -I
-D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_SSD1289\EWARM\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include
+D:\git\lcd\SPL_Projects\Project\lcd_SSD1289\EWARM\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include
 -I
-D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_SSD1289\EWARM\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc
+D:\git\lcd\SPL_Projects\Project\lcd_SSD1289\EWARM\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc
 -I
-D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_SSD1289\EWARM\..\..\..\Utilities\STM32_EVAL\Common
+D:\git\lcd\SPL_Projects\Project\lcd_SSD1289\EWARM\..\..\..\Utilities\STM32_EVAL\Common
 -I
-D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_SSD1289\EWARM\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL
+D:\git\lcd\SPL_Projects\Project\lcd_SSD1289\EWARM\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\CMSIS\Include
 -I
@@ -18,15 +18,15 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\inc\c
 -I
-D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_SSD1289
+D:\git\lcd\SPL_Projects\Project\lcd_SSD1289
 -I
-D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Libraries\CMSIS\Device\ST\STM32F4xx\Include
+D:\git\lcd\SPL_Projects\Libraries\CMSIS\Device\ST\STM32F4xx\Include
 -I
-D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Libraries\STM32F4xx_StdPeriph_Driver\inc
+D:\git\lcd\SPL_Projects\Libraries\STM32F4xx_StdPeriph_Driver\inc
 -I
-D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Utilities\STM32_EVAL\Common
+D:\git\lcd\SPL_Projects\Utilities\STM32_EVAL\Common
 -I
-D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Utilities\STM32_EVAL\STM3240_41_G_EVAL
+D:\git\lcd\SPL_Projects\Utilities\STM32_EVAL\STM3240_41_G_EVAL
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\CMSIS\Include
 -DUSE_STDPERIPH_DRIVER=1

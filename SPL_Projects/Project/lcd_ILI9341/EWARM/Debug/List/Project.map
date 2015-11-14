@@ -1,33 +1,33 @@
 ###############################################################################
 #
-# IAR ELF Linker V7.40.1.8447/W32 for ARM                 14/Nov/2015  11:56:16
+# IAR ELF Linker V7.40.1.8447/W32 for ARM                 14/Nov/2015  18:07:00
 # Copyright 2007-2015 IAR Systems AB.
 #
 #    Output file  =  
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Exe\Project.out
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Exe\Project.out
 #    Map file     =  
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\List\Project.map
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\List\Project.map
 #    Command line =  
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\main.o
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\misc.o
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\startup_stm32f40_41xxx.o
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm324xg_eval.o
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm324xg_eval_lcd.o
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_exti.o
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_fsmc.o
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_gpio.o
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_it.o
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_rcc.o
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_sdio.o
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_tim.o
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_usart.o
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\system_stm32f4xx.o
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\main.o
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\misc.o
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\startup_stm32f40_41xxx.o
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm324xg_eval.o
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm324xg_eval_lcd.o
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_exti.o
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_fsmc.o
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_gpio.o
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_it.o
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_rcc.o
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_sdio.o
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_tim.o
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\stm32f4xx_usart.o
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj\system_stm32f4xx.o
 #        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Exe\Project.out
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Exe\Project.out
 #        --map
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\List\Project.map
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\List\Project.map
 #        --config
-#        D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\stm32f4xx_flash.icf
+#        D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\stm32f4xx_flash.icf
 #        --semihosting --entry __iar_program_start --vfe
 #
 ###############################################################################
@@ -198,7 +198,7 @@ Copy (__iar_copy_init3)
 
     Module                    ro code  ro data  rw data
     ------                    -------  -------  -------
-D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj: [1]
+D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj: [1]
     main.o                        636  153 640       40
     startup_stm32f40_41xxx.o      736
     stm324xg_eval_lcd.o         2 424    4 576       16
@@ -338,7 +338,7 @@ xGPIO_Init              0x0802799f     0x6c  Code  Gb  main.o [1]
 xTIM_Init               0x0802792b     0x74  Code  Gb  main.o [1]
 
 
-[1] = D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj
+[1] = D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\Debug\Obj
 [2] = command line
 [3] = dl7M_tln.a
 [4] = m7M_tls.a

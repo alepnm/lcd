@@ -25,7 +25,7 @@ if not "%1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\settings\lcd_ILI9341.Debug.general.xcl" --backend -f "D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\settings\lcd_ILI9341.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\settings\lcd_ILI9341.Debug.general.xcl" --backend -f "D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\settings\lcd_ILI9341.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\settings\lcd_ILI9341.Debug.general.xcl" "--debug_file=%1" --backend -f "D:\Alex\Desktop\LCD_bandymai\SPL_Projects\Project\lcd_ILI9341\EWARM\settings\lcd_ILI9341.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\settings\lcd_ILI9341.Debug.general.xcl" "--debug_file=%1" --backend -f "D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\settings\lcd_ILI9341.Debug.driver.xcl" 
 
 @echo off 
 :end
