@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<userOverrides>
+  <override>
+    <path>D:\Alex\sync\ownCloud\STM32 projects\spl\Project\STM32F4xx_StdPeriph_Templates\lcd.c</path>
+    <encoding>Win-1251</encoding>
+  </override>
+  <override>
+    <path>D:\Alex\sync\ownCloud\STM32 projects\spl\Project\STM32F4xx_StdPeriph_Templates\main.c</path>
+    <encoding>Win-1251</encoding>
+  </override>
+</userOverrides>
+
+
