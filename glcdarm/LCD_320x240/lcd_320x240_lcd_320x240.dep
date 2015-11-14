@@ -1,0 +1,297 @@
+Dependencies for Project 'lcd_320x240', Target 'lcd_320x240': (DO NOT MODIFY !)
+F (.\startup_stm32f4xx.s)(0x510C1CF0)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F407xx SETA 1"--list .\startup_stm32f4xx.lst --xref -o .\startup_stm32f4xx.o --depend .\startup_stm32f4xx.d)
+F (..\stm32f4xx_library\src\stm32f4xx_spi.c)(0x4EAA5A4A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\stm32f4xx_spi.o --omf_browse .\stm32f4xx_spi.crf --depend .\stm32f4xx_spi.d)
+I (..\stm32f4xx_library\inc\stm32f4xx_spi.h)(0x4EAA5A4A)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\stm32f4xx.h)(0x5638F062)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\system_stm32f4xx.h)(0x559D2740)
+I (.\user\stm32f4xx_conf.h)(0x510C1BFE)
+I (..\stm32f4xx_library\inc\stm32f4xx_exti.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_fsmc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_gpio.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_rcc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_syscfg.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_tim.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\misc.h)(0x4EAA5A4A)
+F (..\stm32f4xx_library\src\stm32f4xx_exti.c)(0x4EAA5A4A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\stm32f4xx_exti.o --omf_browse .\stm32f4xx_exti.crf --depend .\stm32f4xx_exti.d)
+I (..\stm32f4xx_library\inc\stm32f4xx_exti.h)(0x4EAA5A4A)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\stm32f4xx.h)(0x5638F062)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\system_stm32f4xx.h)(0x559D2740)
+I (.\user\stm32f4xx_conf.h)(0x510C1BFE)
+I (..\stm32f4xx_library\inc\stm32f4xx_fsmc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_gpio.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_rcc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_spi.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_syscfg.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_tim.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\misc.h)(0x4EAA5A4A)
+F (..\stm32f4xx_library\src\misc.c)(0x4EAA5A4A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\misc.o --omf_browse .\misc.crf --depend .\misc.d)
+I (..\stm32f4xx_library\inc\misc.h)(0x4EAA5A4A)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\stm32f4xx.h)(0x5638F062)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\system_stm32f4xx.h)(0x559D2740)
+I (.\user\stm32f4xx_conf.h)(0x510C1BFE)
+I (..\stm32f4xx_library\inc\stm32f4xx_exti.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_fsmc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_gpio.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_rcc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_spi.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_syscfg.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_tim.h)(0x4EAA5A4A)
+F (..\stm32f4xx_library\src\stm32f4xx_tim.c)(0x4EAA5A4A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\stm32f4xx_tim.o --omf_browse .\stm32f4xx_tim.crf --depend .\stm32f4xx_tim.d)
+I (..\stm32f4xx_library\inc\stm32f4xx_tim.h)(0x4EAA5A4A)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\stm32f4xx.h)(0x5638F062)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\system_stm32f4xx.h)(0x559D2740)
+I (.\user\stm32f4xx_conf.h)(0x510C1BFE)
+I (..\stm32f4xx_library\inc\stm32f4xx_exti.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_fsmc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_gpio.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_rcc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_spi.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_syscfg.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\misc.h)(0x4EAA5A4A)
+F (..\stm32f4xx_library\src\stm32f4xx_rcc.c)(0x4EAA5A4A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\stm32f4xx_rcc.o --omf_browse .\stm32f4xx_rcc.crf --depend .\stm32f4xx_rcc.d)
+I (..\stm32f4xx_library\inc\stm32f4xx_rcc.h)(0x4EAA5A4A)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\stm32f4xx.h)(0x5638F062)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\system_stm32f4xx.h)(0x559D2740)
+I (.\user\stm32f4xx_conf.h)(0x510C1BFE)
+I (..\stm32f4xx_library\inc\stm32f4xx_exti.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_fsmc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_gpio.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_spi.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_syscfg.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_tim.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\misc.h)(0x4EAA5A4A)
+F (..\stm32f4xx_library\src\stm32f4xx_fsmc.c)(0x4EAA5A4A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\stm32f4xx_fsmc.o --omf_browse .\stm32f4xx_fsmc.crf --depend .\stm32f4xx_fsmc.d)
+I (..\stm32f4xx_library\inc\stm32f4xx_fsmc.h)(0x4EAA5A4A)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\stm32f4xx.h)(0x5638F062)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\system_stm32f4xx.h)(0x559D2740)
+I (.\user\stm32f4xx_conf.h)(0x510C1BFE)
+I (..\stm32f4xx_library\inc\stm32f4xx_exti.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_gpio.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_rcc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_spi.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_syscfg.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_tim.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\misc.h)(0x4EAA5A4A)
+F (..\stm32f4xx_library\src\stm32f4xx_gpio.c)(0x4EAA5A4A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\stm32f4xx_gpio.o --omf_browse .\stm32f4xx_gpio.crf --depend .\stm32f4xx_gpio.d)
+I (..\stm32f4xx_library\inc\stm32f4xx_gpio.h)(0x4EAA5A4A)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\stm32f4xx.h)(0x5638F062)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\system_stm32f4xx.h)(0x559D2740)
+I (.\user\stm32f4xx_conf.h)(0x510C1BFE)
+I (..\stm32f4xx_library\inc\stm32f4xx_exti.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_fsmc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_rcc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_spi.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_syscfg.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_tim.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\misc.h)(0x4EAA5A4A)
+F (..\stm32f4xx_library\src\stm32f4xx_syscfg.c)(0x4EAA5A4A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\stm32f4xx_syscfg.o --omf_browse .\stm32f4xx_syscfg.crf --depend .\stm32f4xx_syscfg.d)
+I (..\stm32f4xx_library\inc\stm32f4xx_syscfg.h)(0x4EAA5A4A)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\stm32f4xx.h)(0x5638F062)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\system_stm32f4xx.h)(0x559D2740)
+I (.\user\stm32f4xx_conf.h)(0x510C1BFE)
+I (..\stm32f4xx_library\inc\stm32f4xx_exti.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_fsmc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_gpio.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_rcc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_spi.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_tim.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\misc.h)(0x4EAA5A4A)
+F (.\user\ts.c)(0x563E196D)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\ts.o --omf_browse .\ts.crf --depend .\ts.d)
+I (user\ts.h)(0x563E0E21)
+I (..\stm32f4xx_library\inc\misc.h)(0x4EAA5A4A)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\stm32f4xx.h)(0x5638F062)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\system_stm32f4xx.h)(0x559D2740)
+I (.\user\stm32f4xx_conf.h)(0x510C1BFE)
+I (..\stm32f4xx_library\inc\stm32f4xx_exti.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_fsmc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_gpio.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_rcc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_spi.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_syscfg.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_tim.h)(0x4EAA5A4A)
+I (user\stm32f4xx_it.h)(0x50FAA738)
+I (user\functions.h)(0x510BD8F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54763950)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476394E)
+I (user\LCD_STM32F4.h)(0x563E44A4)
+I (user\fonts.h)(0x4FBE3C44)
+I (user\img/img00.h)(0x50FB2B7E)
+F (.\user\fonts.c)(0x4FBE3C44)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\fonts.o --omf_browse .\fonts.crf --depend .\fonts.d)
+I (user\fonts.h)(0x4FBE3C44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+F (.\user\LCD_STM32F4.c)(0x563A3D65)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\lcd_stm32f4.o --omf_browse .\lcd_stm32f4.crf --depend .\lcd_stm32f4.d)
+I (user\LCD_STM32F4.h)(0x563E44A4)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\stm32f4xx.h)(0x5638F062)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\system_stm32f4xx.h)(0x559D2740)
+I (.\user\stm32f4xx_conf.h)(0x510C1BFE)
+I (..\stm32f4xx_library\inc\stm32f4xx_exti.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_fsmc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_gpio.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_rcc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_spi.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_syscfg.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_tim.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\misc.h)(0x4EAA5A4A)
+I (user\stm32f4xx_it.h)(0x50FAA738)
+I (user\fonts.h)(0x4FBE3C44)
+I (user\img/img00.h)(0x50FB2B7E)
+F (.\user\main.c)(0x563E44BC)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (user\main.h)(0x510C1B32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54763950)
+I (user\pwm.h)(0x51099762)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\stm32f4xx.h)(0x5638F062)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\system_stm32f4xx.h)(0x559D2740)
+I (.\user\stm32f4xx_conf.h)(0x510C1BFE)
+I (..\stm32f4xx_library\inc\stm32f4xx_exti.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_fsmc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_gpio.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_rcc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_spi.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_syscfg.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_tim.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\misc.h)(0x4EAA5A4A)
+I (user\ts.h)(0x563E0E21)
+I (user\stm32f4xx_it.h)(0x50FAA738)
+I (user\functions.h)(0x510BD8F6)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476394E)
+I (user\LCD_STM32F4.h)(0x563E44A4)
+I (user\fonts.h)(0x4FBE3C44)
+I (user\img/img00.h)(0x50FB2B7E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54763950)
+F (.\user\pwm.c)(0x563E1C6A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\pwm.o --omf_browse .\pwm.crf --depend .\pwm.d)
+I (..\stm32f4xx_library\inc\stm32f4xx_tim.h)(0x4EAA5A4A)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\stm32f4xx.h)(0x5638F062)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\system_stm32f4xx.h)(0x559D2740)
+I (.\user\stm32f4xx_conf.h)(0x510C1BFE)
+I (..\stm32f4xx_library\inc\stm32f4xx_exti.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_fsmc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_gpio.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_rcc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_spi.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_syscfg.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\misc.h)(0x4EAA5A4A)
+I (user\pwm.h)(0x51099762)
+F (.\user\stm32f4xx_it.c)(0x510C257A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\stm32f4xx_it.o --omf_browse .\stm32f4xx_it.crf --depend .\stm32f4xx_it.d)
+I (..\stm32f4xx_library\inc\stm32f4xx_exti.h)(0x4EAA5A4A)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\stm32f4xx.h)(0x5638F062)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\system_stm32f4xx.h)(0x559D2740)
+I (.\user\stm32f4xx_conf.h)(0x510C1BFE)
+I (..\stm32f4xx_library\inc\stm32f4xx_fsmc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_gpio.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_rcc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_spi.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_syscfg.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_tim.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\misc.h)(0x4EAA5A4A)
+I (user\stm32f4xx_it.h)(0x50FAA738)
+I (user\main.h)(0x510C1B32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54763950)
+I (user\pwm.h)(0x51099762)
+I (user\ts.h)(0x563E0E21)
+I (user\functions.h)(0x510BD8F6)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476394E)
+I (user\LCD_STM32F4.h)(0x563E44A4)
+I (user\fonts.h)(0x4FBE3C44)
+I (user\img/img00.h)(0x50FB2B7E)
+F (.\user\system_stm32f4xx.c)(0x510C213A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\system_stm32f4xx.o --omf_browse .\system_stm32f4xx.crf --depend .\system_stm32f4xx.d)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\stm32f4xx.h)(0x5638F062)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\system_stm32f4xx.h)(0x559D2740)
+I (.\user\stm32f4xx_conf.h)(0x510C1BFE)
+I (..\stm32f4xx_library\inc\stm32f4xx_exti.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_fsmc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_gpio.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_rcc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_spi.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_syscfg.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_tim.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\misc.h)(0x4EAA5A4A)
+F (.\user\stm32f4xx_conf.h)(0x510C1BFE)()
+F (.\user\functions.c)(0x510BD894)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork -I..\stm32f4xx_library\inc -I.\user -IC:\Keil_v5\ARM\INC\ST\STM32F4xx-I D:\Alex\Desktop\LCD_bandymai\glcdarm\LCD_320x240\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F4XX-o .\functions.o --omf_browse .\functions.crf --depend .\functions.d)
+I (user\functions.h)(0x510BD8F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54763950)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\stm32f4xx.h)(0x5638F062)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54763950)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31E8)
+I (C:\Keil_v5\ARM\INC\ST\STM32F4xx\system_stm32f4xx.h)(0x559D2740)
+I (.\user\stm32f4xx_conf.h)(0x510C1BFE)
+I (..\stm32f4xx_library\inc\stm32f4xx_exti.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_fsmc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_gpio.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_rcc.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_spi.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_syscfg.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\stm32f4xx_tim.h)(0x4EAA5A4A)
+I (..\stm32f4xx_library\inc\misc.h)(0x4EAA5A4A)
