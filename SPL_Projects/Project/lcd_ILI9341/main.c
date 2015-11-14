@@ -153,8 +153,7 @@ int main(void)
     
     LCD_SetTextColor(COLOR.WHITE);
     LCD_SetBackColor(COLOR.BLACK);
-    LCD_SetFont(&Font16x24);
-    
+   
     const uint16_t stra = 'Q';
     
     LCD_DrawChar(100, 100, &stra);

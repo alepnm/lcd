@@ -698,18 +698,18 @@ void LCD_WriteBMP(uint32_t BmpAddress)
   {
     uint32_t index = 0, size = 0;
     /* Read bitmap size */
-//    size = *(__IO uint16_t *) (BmpAddress + 2);
-//    size |= (*(__IO uint16_t *) (BmpAddress + 4)) << 16;
+    //    size = *(__IO uint16_t *) (BmpAddress + 2);
+    //    size |= (*(__IO uint16_t *) (BmpAddress + 4)) << 16;
     /* Get bitmap data address offset */
-//    index = *(__IO uint16_t *) (BmpAddress + 10);
-//    index |= (*(__IO uint16_t *) (BmpAddress + 12)) << 16;
-//    size = (size - index)/2;
-//    BmpAddress += index;
+    //    index = *(__IO uint16_t *) (BmpAddress + 10);
+    //    index |= (*(__IO uint16_t *) (BmpAddress + 12)) << 16;
+    //    size = (size - index)/2;
+    //    BmpAddress += index;
     
     /* Set GRAM write direction and BGR = 1 */
     /* I/D=00 (Horizontal : decrement, Vertical : decrement) */
     /* AM=1 (address is updated in vertical writing direction) */
-//    LCD_WriteReg(LCD_REG_3, 0x1008);
+    //    LCD_WriteReg(LCD_REG_3, 0x1008);
     
     
     LCD_SetCursor(0, 0);
@@ -726,7 +726,7 @@ void LCD_WriteBMP(uint32_t BmpAddress)
     /* Set GRAM write direction and BGR = 1 */
     /* I/D = 01 (Horizontal : increment, Vertical : decrement) */
     /* AM = 1 (address is updated in vertical writing direction) */
-//    LCD_WriteReg(LCD_REG_3, 0x1018);
+    //    LCD_WriteReg(LCD_REG_3, 0x1018);
   }
 
 /**
@@ -1203,46 +1203,46 @@ void LCD_CtrlLinesConfig(void)
     /* SRAM Data lines,  NOE and NWE configuration */
     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0 | GPIO_Pin_1 | GPIO_Pin_8 | GPIO_Pin_9 |
       GPIO_Pin_10 | GPIO_Pin_14 | GPIO_Pin_15 | GPIO_Pin_4 | GPIO_Pin_5;
-        GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
-        GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-        GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
-        GPIO_InitStructure.GPIO_PuPd  = GPIO_PuPd_NOPULL;
-        
-        GPIO_Init(GPIOD, &GPIO_InitStructure);
-        GPIO_PinAFConfig(GPIOD, GPIO_PinSource0, GPIO_AF_FSMC);     //FSMC_D2
-        GPIO_PinAFConfig(GPIOD, GPIO_PinSource1, GPIO_AF_FSMC);     //FSMC_D3
-        GPIO_PinAFConfig(GPIOD, GPIO_PinSource4, GPIO_AF_FSMC);     //FSMC_RD
-        GPIO_PinAFConfig(GPIOD, GPIO_PinSource5, GPIO_AF_FSMC);     //FSMC_WR
-        GPIO_PinAFConfig(GPIOD, GPIO_PinSource8, GPIO_AF_FSMC);     //FSMC_D13
-        GPIO_PinAFConfig(GPIOD, GPIO_PinSource9, GPIO_AF_FSMC);     //FSMC_D14
-        GPIO_PinAFConfig(GPIOD, GPIO_PinSource10, GPIO_AF_FSMC);    //FSMC_D15    
-        GPIO_PinAFConfig(GPIOD, GPIO_PinSource14, GPIO_AF_FSMC);    //FSMC_D0
-        GPIO_PinAFConfig(GPIOD, GPIO_PinSource15, GPIO_AF_FSMC);    //FSMC_D1
-        
-        GPIO_InitStructure.GPIO_Pin = GPIO_Pin_7 | GPIO_Pin_8 | GPIO_Pin_9 | GPIO_Pin_10 |
-          GPIO_Pin_11 | GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | 
-            GPIO_Pin_15;
-        GPIO_Init(GPIOE, &GPIO_InitStructure);
-        
-        GPIO_PinAFConfig(GPIOE, GPIO_PinSource7 , GPIO_AF_FSMC);    //FSMC_D4
-        GPIO_PinAFConfig(GPIOE, GPIO_PinSource8 , GPIO_AF_FSMC);    //FSMC_D5
-        GPIO_PinAFConfig(GPIOE, GPIO_PinSource9 , GPIO_AF_FSMC);    //FSMC_D6
-        GPIO_PinAFConfig(GPIOE, GPIO_PinSource10 , GPIO_AF_FSMC);   //FSMC_D7
-        GPIO_PinAFConfig(GPIOE, GPIO_PinSource11 , GPIO_AF_FSMC);   //FSMC_D8
-        GPIO_PinAFConfig(GPIOE, GPIO_PinSource12 , GPIO_AF_FSMC);   //FSMC_D9
-        GPIO_PinAFConfig(GPIOE, GPIO_PinSource13 , GPIO_AF_FSMC);   //FSMC_D10
-        GPIO_PinAFConfig(GPIOE, GPIO_PinSource14 , GPIO_AF_FSMC);   //FSMC_D11
-        GPIO_PinAFConfig(GPIOE, GPIO_PinSource15 , GPIO_AF_FSMC);   //FSMC_D12
-        
-        /* SRAM Address lines configuration */
-        GPIO_InitStructure.GPIO_Pin = GPIO_Pin_11;
-        GPIO_Init(GPIOD, &GPIO_InitStructure);  
-        GPIO_PinAFConfig(GPIOD, GPIO_PinSource11, GPIO_AF_FSMC);	   
-        
-        /* NE1 configuration */
-        GPIO_InitStructure.GPIO_Pin = GPIO_Pin_7;         
-        GPIO_Init(GPIOD, &GPIO_InitStructure);
-        GPIO_PinAFConfig(GPIOD, GPIO_PinSource7, GPIO_AF_FSMC);
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+    GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+    GPIO_InitStructure.GPIO_PuPd  = GPIO_PuPd_NOPULL;
+    
+    GPIO_Init(GPIOD, &GPIO_InitStructure);
+    GPIO_PinAFConfig(GPIOD, GPIO_PinSource0, GPIO_AF_FSMC);     //FSMC_D2
+    GPIO_PinAFConfig(GPIOD, GPIO_PinSource1, GPIO_AF_FSMC);     //FSMC_D3
+    GPIO_PinAFConfig(GPIOD, GPIO_PinSource4, GPIO_AF_FSMC);     //FSMC_RD
+    GPIO_PinAFConfig(GPIOD, GPIO_PinSource5, GPIO_AF_FSMC);     //FSMC_WR
+    GPIO_PinAFConfig(GPIOD, GPIO_PinSource8, GPIO_AF_FSMC);     //FSMC_D13
+    GPIO_PinAFConfig(GPIOD, GPIO_PinSource9, GPIO_AF_FSMC);     //FSMC_D14
+    GPIO_PinAFConfig(GPIOD, GPIO_PinSource10, GPIO_AF_FSMC);    //FSMC_D15    
+    GPIO_PinAFConfig(GPIOD, GPIO_PinSource14, GPIO_AF_FSMC);    //FSMC_D0
+    GPIO_PinAFConfig(GPIOD, GPIO_PinSource15, GPIO_AF_FSMC);    //FSMC_D1
+    
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_7 | GPIO_Pin_8 | GPIO_Pin_9 | GPIO_Pin_10 |
+      GPIO_Pin_11 | GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | 
+        GPIO_Pin_15;
+    GPIO_Init(GPIOE, &GPIO_InitStructure);
+    
+    GPIO_PinAFConfig(GPIOE, GPIO_PinSource7 , GPIO_AF_FSMC);    //FSMC_D4
+    GPIO_PinAFConfig(GPIOE, GPIO_PinSource8 , GPIO_AF_FSMC);    //FSMC_D5
+    GPIO_PinAFConfig(GPIOE, GPIO_PinSource9 , GPIO_AF_FSMC);    //FSMC_D6
+    GPIO_PinAFConfig(GPIOE, GPIO_PinSource10 , GPIO_AF_FSMC);   //FSMC_D7
+    GPIO_PinAFConfig(GPIOE, GPIO_PinSource11 , GPIO_AF_FSMC);   //FSMC_D8
+    GPIO_PinAFConfig(GPIOE, GPIO_PinSource12 , GPIO_AF_FSMC);   //FSMC_D9
+    GPIO_PinAFConfig(GPIOE, GPIO_PinSource13 , GPIO_AF_FSMC);   //FSMC_D10
+    GPIO_PinAFConfig(GPIOE, GPIO_PinSource14 , GPIO_AF_FSMC);   //FSMC_D11
+    GPIO_PinAFConfig(GPIOE, GPIO_PinSource15 , GPIO_AF_FSMC);   //FSMC_D12
+    
+    /* SRAM Address lines configuration */
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_11;
+    GPIO_Init(GPIOD, &GPIO_InitStructure);  
+    GPIO_PinAFConfig(GPIOD, GPIO_PinSource11, GPIO_AF_FSMC);	   
+    
+    /* NE1 configuration */
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_7;         
+    GPIO_Init(GPIOD, &GPIO_InitStructure);
+    GPIO_PinAFConfig(GPIOD, GPIO_PinSource7, GPIO_AF_FSMC);
   }
 
 /**

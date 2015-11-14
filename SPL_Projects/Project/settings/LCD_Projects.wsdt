@@ -5,7 +5,7 @@
     
     
     
-  <CurrentConfigs><Project>lcd_ILI9341/Debug</Project><Project>lcd_ILI9341_2/Debug</Project><Project>lcd_SSD1289/Debug</Project></CurrentConfigs><CurrentProj>lcd_SSD1289</CurrentProj><OverviewSelected>1</OverviewSelected></ConfigDictionary>
+  <CurrentConfigs><Project>lcd_ILI9341/Debug</Project><Project>lcd_SSD1289/Debug</Project></CurrentConfigs><CurrentProj>lcd_ILI9341</CurrentProj><OverviewSelected>1</OverviewSelected></ConfigDictionary>
   <Desktop>
     <Static>
       <Workspace>
@@ -27,7 +27,7 @@
     <Windows>
       
       
-    <Wnd1>
+    <Wnd0>
         <Tabs>
           <Tab>
             <Identity>TabID-6085-14834</Identity>
@@ -35,11 +35,11 @@
             <Factory>Workspace</Factory>
             <Session>
               
-            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341/User</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL/Application</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL/Application/User</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL/Application/User/main.c</ExpandedNode><ExpandedNode>lcd_ILI9341</ExpandedNode><ExpandedNode>lcd_SSD1289</ExpandedNode></NodeDict></Session>
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341/User</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_2</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL/Application</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL/Application/User</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL/Application/User/main.c</ExpandedNode><ExpandedNode>lcd_ILI9341</ExpandedNode><ExpandedNode>lcd_SSD1289</ExpandedNode></NodeDict></Session>
           </Tab>
         </Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd1><Wnd2>
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd3>
         <Tabs>
           <Tab>
             <Identity>TabID-21894-15357</Identity>
@@ -49,21 +49,21 @@
           </Tab>
         <Tab><Identity>TabID-4535-1619</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-22708-11223</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab><Tab><Identity>TabID-12780-14727</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd2></Windows>
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
     <Editor>
       
       
       
       
       
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\lcd_ILI9341_2\FSMC_LowLevel.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>87</YPos2><SelStart2>2550</SelStart2><SelEnd2>2550</SelEnd2></Tab><ActiveTab>0</ActiveTab></Pane><ActivePane>0</ActivePane><Pane/><Sizes><Pane><X>834467</X><Y>1000000</Y></Pane><Pane><X>165532</X><Y>1000000</Y></Pane></Sizes><SplitMode>4</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL\stm324xg_eval.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>651</SelStart2><SelEnd2>651</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL\stm324xg_eval_lcd.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>231</YPos2><SelStart2>11405</SelStart2><SelEnd2>11405</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\CMSIS\Include\core_cm4.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>230</YPos2><SelStart2>9828</SelStart2><SelEnd2>9828</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL\stm324xg_eval_lcd.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>238</YPos2><SelStart2>8305</SelStart2><SelEnd2>8305</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\lcd_ILI9341\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>129</YPos2><SelStart2>4987</SelStart2><SelEnd2>4987</SelEnd2></Tab><ActiveTab>4</ActiveTab></Pane><ActivePane>0</ActivePane><Pane/><Sizes><Pane><X>834467</X><Y>1000000</Y></Pane><Pane><X>165532</X><Y>1000000</Y></Pane></Sizes><SplitMode>4</SplitMode></Editor>
     <Positions>
       
       
       
       
       
-    <Top><Row0><Sizes><Toolbar-001DC800><key>iaridepm.enu1</key></Toolbar-001DC800></Sizes></Row0><Row1><Sizes><Wnd2><Rect><Top>22</Top><Left>-2</Left><Bottom>222</Bottom><Right>1282</Right><x>-2</x><y>22</y><xscreen>1284</xscreen><yscreen>200</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>210084</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>210084</sizeVertCY></Rect></Wnd2></Sizes></Row1></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>709</Bottom><Right>310</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>210084</sizeHorzCY><sizeVertCX>243750</sizeVertCX><sizeVertCY>746849</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes/></Row0></Bottom><Float><Sizes/></Float></Positions>
+    <Top><Row0><Sizes><Toolbar-0029C5E0><key>iaridepm.enu1</key></Toolbar-0029C5E0></Sizes></Row0><Row1><Sizes><Wnd3><Rect><Top>22</Top><Left>-2</Left><Bottom>222</Bottom><Right>1282</Right><x>-2</x><y>22</y><xscreen>1284</xscreen><yscreen>200</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>210084</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>210084</sizeVertCY></Rect></Wnd3></Sizes></Row1></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>709</Bottom><Right>310</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>210084</sizeHorzCY><sizeVertCX>243750</sizeVertCX><sizeVertCY>746849</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes/></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Workspace>
 
