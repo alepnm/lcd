@@ -1,0 +1,447 @@
+Component: ARM Compiler 5.05 update 1 (build 106) Tool: armlink [4d0efa]
+
+==============================================================================
+
+Section Cross References
+
+    tn_port_cm4f.o(.text) refers to tn_tasks_1.o(.text) for tn_task_exit
+    tn_1.o(.text) refers to main.o(.text) for tn_app_init
+    tn_1.o(.text) refers to tn_port_cm4f.o(.text) for tn_cpu_int_enable
+    tn_1.o(.text) refers to tn_user.o(.text) for tn_cpu_int_enable
+    tn_1.o(.text) refers to tn_utils_1.o(.text) for queue_remove_entry
+    tn_1.o(.text) refers to tn_tasks_1.o(.text) for task_wait_complete
+    tn_1.o(.text) refers to tn_1.o(.data) for tn_idle_count
+    tn_1.o(.text) refers to tn_1.o(.bss) for tn_ready_list
+    tn_dqueue_1.o(.text) refers to tn_utils_1.o(.text) for queue_reset
+    tn_dqueue_1.o(.text) refers to tn_user.o(.text) for tn_inside_int
+    tn_dqueue_1.o(.text) refers to tn_tasks_1.o(.text) for task_wait_complete
+    tn_dqueue_1.o(.text) refers to tn_1.o(.data) for tn_curr_run_task
+    tn_event_1.o(.text) refers to tn_utils_1.o(.text) for queue_reset
+    tn_event_1.o(.text) refers to tn_user.o(.text) for tn_inside_int
+    tn_event_1.o(.text) refers to tn_tasks_1.o(.text) for task_wait_complete
+    tn_event_1.o(.text) refers to tn_1.o(.data) for tn_curr_run_task
+    tn_mem_1.o(.text) refers to tn_utils_1.o(.text) for queue_reset
+    tn_mem_1.o(.text) refers to tn_user.o(.text) for tn_inside_int
+    tn_mem_1.o(.text) refers to tn_tasks_1.o(.text) for task_wait_complete
+    tn_mem_1.o(.text) refers to tn_1.o(.data) for tn_curr_run_task
+    tn_mutex_1.o(.text) refers to tn_utils_1.o(.text) for queue_reset
+    tn_mutex_1.o(.text) refers to tn_tasks_1.o(.text) for change_running_task_priority
+    tn_mutex_1.o(.text) refers to tn_user.o(.text) for tn_inside_int
+    tn_mutex_1.o(.text) refers to tn_1.o(.data) for tn_curr_run_task
+    tn_sem_1.o(.text) refers to tn_user.o(.text) for tn_inside_int
+    tn_sem_1.o(.text) refers to tn_utils_1.o(.text) for queue_reset
+    tn_sem_1.o(.text) refers to tn_tasks_1.o(.text) for task_wait_complete
+    tn_sem_1.o(.text) refers to tn_1.o(.data) for tn_curr_run_task
+    tn_tasks_1.o(.text) refers to tn_utils_1.o(.text) for queue_add_tail
+    tn_tasks_1.o(.text) refers to tn_user.o(.text) for tn_inside_int
+    tn_tasks_1.o(.text) refers to tn_port_cm4f.o(.text) for tn_stack_init
+    tn_tasks_1.o(.text) refers to tn_1.o(.bss) for tn_ready_list
+    tn_tasks_1.o(.text) refers to tn_1.o(.data) for tn_ready_to_run_bmp
+    tn_tasks_1.o(.text) refers to tn_mutex_1.o(.text) for find_max_blocked_priority
+    stm32f4xx_adc.o(.text) refers to stm32f4xx_rcc.o(.text) for RCC_APB2PeriphResetCmd
+    stm32f4xx_dac.o(.text) refers to stm32f4xx_rcc.o(.text) for RCC_APB1PeriphResetCmd
+    stm32f4xx_fsmc.o(.text) refers to stm32f4xx_fsmc.o(.constdata) for FSMC_DefaultTimingStruct
+    stm32f4xx_gpio.o(.text) refers to stm32f4xx_rcc.o(.text) for RCC_AHB1PeriphResetCmd
+    stm32f4xx_i2c.o(.text) refers to stm32f4xx_rcc.o(.text) for RCC_APB1PeriphResetCmd
+    stm32f4xx_pwr.o(.text) refers to stm32f4xx_rcc.o(.text) for RCC_APB1PeriphResetCmd
+    stm32f4xx_rcc.o(.text) refers to stm32f4xx_rcc.o(.data) for APBAHBPrescTable
+    stm32f4xx_spi.o(.text) refers to stm32f4xx_rcc.o(.text) for RCC_APB2PeriphResetCmd
+    stm32f4xx_syscfg.o(.text) refers to stm32f4xx_rcc.o(.text) for RCC_APB2PeriphResetCmd
+    stm32f4xx_tim.o(.text) refers to stm32f4xx_rcc.o(.text) for RCC_APB2PeriphResetCmd
+    stm32f4xx_usart.o(.text) refers to stm32f4xx_rcc.o(.text) for RCC_APB2PeriphResetCmd
+    lcdhal_universal.o(.text) refers to mkdriver_207z.o(.text) for LCD_ReadReg
+    lcdhal_universal.o(.text) refers to guicolor.o(.text) for LCD_SetColorMode
+    lcdhal_universal.o(.text) refers to lcdhal_ili9320.o(.text) for LCD_Init_ILI9320
+    lcdhal_universal.o(.text) refers to lcdhal_hx8347a.o(.text) for LCD_Init_HX8347A
+    lcdhal_universal.o(.text) refers to guiprimitives.o(.text) for LCD_Clear
+    lcdhal_universal.o(.text) refers to lcdhal_universal.o(.data) for LCD_Currentfonts
+    lcdhal_universal.o(.text) refers to guifontsmin.o(.data) for GL_ArialNarrow_15
+    lcdhal_ili9320.o(.text) refers to mkdriver_207z.o(.text) for LCD_WriteReg
+    lcdhal_ili9320.o(.text) refers to lcdhal_universal.o(.text) for LCD_SetWindow
+    lcdhal_ili9320.o(.text) refers to guicolor.o(.data) for TextColor
+    lcdhal_ili9320.o(.text) refers to lcdhal_universal.o(.data) for LCD_Currentfonts
+    lcdhal_hx8347a.o(.text) refers to mkdriver_207z.o(.text) for LCD_WriteReg
+    lcdhal_hx8347a.o(.text) refers to lcdhal_universal.o(.text) for LCD_SetWindow
+    lcdhal_hx8347a.o(.text) refers to guicolor.o(.data) for TextColor
+    lcdhal_hx8347a.o(.text) refers to lcdhal_universal.o(.data) for LCD_Currentfonts
+    ee_emul.o(.text) refers to stm32f4xx_flash.o(.text) for FLASH_Unlock
+    guicolor.o(.text) refers to guicolor.o(.data) for colorMode
+    guicolor.o(.text) refers to guicolor.o(.bss) for palette
+    guiprimitives.o(.text) refers to guicolor.o(.text) for LCD_SetTextColor
+    guiprimitives.o(.text) refers to lcdhal_universal.o(.text) for LCD_DrawFillRect
+    guiprimitives.o(.text) refers to dflt_clz.o(x$fpl$dfltu) for __aeabi_ui2d
+    guiprimitives.o(.text) refers to dflt_clz.o(x$fpl$dflt) for __aeabi_i2d
+    guiprimitives.o(.text) refers to dleqf.o(x$fpl$dleqf) for __aeabi_cdcmple
+    guiprimitives.o(.text) refers to drleqf.o(x$fpl$drleqf) for __aeabi_cdrcmple
+    guitext.o(.text) refers to lcdhal_universal.o(.text) for LCD_SetFont
+    widget.o(.text) refers to beeper.o(.text) for Beeper_ShortOn
+    guichart.o(.text) refers to guicolor.o(.text) for LCD_SetTextColor
+    guichart.o(.text) refers to guiprimitives.o(.text) for LCD_DrawLine
+    guichart.o(.text) refers to lcdhal_universal.o(.text) for LCD_DrawFillRect
+    guicheckbox.o(.text) refers to widget.o(.text) for wmTextInit
+    guicheckbox.o(.text) refers to guicolor.o(.text) for LCD_SetTextColor
+    guicheckbox.o(.text) refers to guiprimitives.o(.text) for LCD_DrawLine
+    guicheckbox.o(.text) refers to lcdhal_universal.o(.text) for LCD_DrawFillRect
+    guilabel.o(.text) refers to widget.o(.text) for wmObjInit
+    guilabel.o(.text) refers to guicolor.o(.text) for LCD_SetTextColor
+    guilabel.o(.text) refers to guiprimitives.o(.text) for LCD_DrawLine
+    guilabel.o(.text) refers to lcdhal_universal.o(.text) for LCD_DrawFillRect
+    guiradiogroup.o(.text) refers to widget.o(.text) for wmTextInit
+    guiradiogroup.o(.text) refers to guicolor.o(.text) for LCD_SetTextColor
+    guiradiogroup.o(.text) refers to guiprimitives.o(.text) for LCD_DrawLine
+    guiradiogroup.o(.text) refers to lcdhal_universal.o(.text) for LCD_SetFont
+    guitextbutton.o(.text) refers to widget.o(.text) for wmTouchInit
+    guitextbutton.o(.text) refers to guicolor.o(.text) for LCD_SetTextColor
+    guitextbutton.o(.text) refers to lcdhal_universal.o(.text) for LCD_DrawFillRect
+    guitextbutton.o(.text) refers to guiprimitives.o(.text) for LCD_DrawString
+    guitouchcalibration.o(.text) refers to ee_emul.o(.text) for EE_WriteBuf
+    guitouchcalibration.o(.text) refers to ads7843_207z.o(.text) for touchSetCoef
+    guitouchcalibration.o(.text) refers to guiprimitives.o(.text) for LCD_Clear
+    guitouchcalibration.o(.text) refers to guicolor.o(.text) for LCD_SetColors
+    guitouchcalibration.o(.text) refers to lcdhal_universal.o(.text) for LCD_SetFont
+    guitouchcalibration.o(.text) refers to guitouchcalibration.o(.data) for counter
+    guitouchcalibration.o(.text) refers to guifontsmin.o(.data) for GL_ArialNarrow_15
+    guitouchcalibration.o(.text) refers to guitouchcalibration.o(.bss) for xPos
+    guitouchcalibration.o(.text) refers to guitouchcalibration.o(.constdata) for xCenter
+    guiupdownbox.o(.text) refers to guitextbutton.o(.text) for defaultTextButtonInit
+    guiupdownbox.o(.text) refers to guilabel.o(.text) for labelInit
+    guiupdownbox.o(.text) refers to widget.o(.text) for wmTouchInit
+    guiupdownbox.o(.text) refers to guitext.o(.text) for int32toString
+    guiupdownbox.o(.text) refers to guifontsmin.o(.data) for GL_ArialNarrow_15
+    beeper.o(.text) refers to stm32f4xx_rcc.o(.text) for RCC_APB2PeriphClockCmd
+    beeper.o(.text) refers to stm32f4xx_gpio.o(.text) for GPIO_ResetBits
+    beeper.o(.text) refers to misc_1.o(.text) for NVIC_Init
+    beeper.o(.text) refers to stm32f4xx_tim.o(.text) for TIM_TimeBaseInit
+    beeper.o(.text) refers to beeper.o(.data) for beep
+    mkdriver_207z.o(.text) refers to stm32f4xx_gpio.o(.text) for GPIO_SetBits
+    mkdriver_207z.o(.text) refers to stm32f4xx_rcc.o(.text) for RCC_AHB1PeriphClockCmd
+    mkdriver_207z.o(.text) refers to stm32f4xx_fsmc.o(.text) for FSMC_NORSRAMInit
+    ads7843_207z.o(.text) refers to stm32f4xx_gpio.o(.text) for GPIO_SetBits
+    ads7843_207z.o(.text) refers to stm32f4xx_spi.o(.text) for SPI_I2S_SendData
+    ads7843_207z.o(.text) refers to ads7843_207z.o(.data) for ax
+    guifontsmin.o(.data) refers to guifontsmin.o(.constdata) for ArialNarrow_15_SymbolTable
+    main.o(.text) refers to hw_init.o(.text) for HardwareInit
+    main.o(.text) refers to tn_1.o(.text) for tn_start_system
+    main.o(.text) refers to appgui.o(.text) for appGUI_task_create
+    main.o(.text) refers to tn_task_usart.o(.text) for uart_task_create
+    tn_user.o(.text) refers to tn_1.o(.text) for tn_tick_int_processing
+    tn_user.o(.text) refers to stm32f4xx_dma.o(.text) for DMA_ClearFlag
+    tn_user.o(.text) refers to stm32f4xx_usart.o(.text) for USART_GetITStatus
+    tn_user.o(.text) refers to tn_user.o(.data) for timer1ms
+    tn_user.o(.text) refers to tn_1.o(.data) for tn_idle_count
+    hw_init.o(.text) refers to stm32f4xx_rcc.o(.text) for RCC_GetClocksFreq
+    hw_init.o(.text) refers to stm32f4xx_rtc.o(.text) for RTC_ReadBackupRegister
+    hw_init.o(.text) refers to stm32f4xx_pwr.o(.text) for PWR_BackupAccessCmd
+    hw_init.o(.text) refers to stm32f4xx_flash.o(.text) for FLASH_PrefetchBufferCmd
+    hw_init.o(.text) refers to ads7843_207z.o(.text) for TP_SPI_Config
+    hw_init.o(.text) refers to stm32f4xx_dma.o(.text) for DMA_Init
+    hw_init.o(.text) refers to stm32f4xx_gpio.o(.text) for GPIO_Init
+    hw_init.o(.text) refers to stm32f4xx_tim.o(.text) for TIM_TimeBaseStructInit
+    hw_init.o(.text) refers to stm32f4xx_adc.o(.text) for ADC_CommonInit
+    hw_init.o(.text) refers to hw_init.o(.bss) for resultADC
+    hw_init.o(.text) refers to misc_1.o(.text) for NVIC_Init
+    hw_init.o(.text) refers to stm32f4xx_usart.o(.text) for USART_Init
+    hw_init.o(.text) refers to stm32f4xx_iwdg.o(.text) for IWDG_WriteAccessCmd
+    startup_stm32f40xx.o(STACK) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_stm32f40xx.o(HEAP) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_stm32f40xx.o(RESET) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_stm32f40xx.o(RESET) refers to startup_stm32f40xx.o(STACK) for __initial_sp
+    startup_stm32f40xx.o(RESET) refers to startup_stm32f40xx.o(.text) for Reset_Handler
+    startup_stm32f40xx.o(RESET) refers to tn_user.o(.text) for SysTick_Handler
+    startup_stm32f40xx.o(RESET) refers to beeper.o(.text) for TIM1_BRK_TIM9_IRQHandler
+    startup_stm32f40xx.o(.text) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_stm32f40xx.o(.text) refers to __main.o(!!!main) for __main
+    startup_stm32f40xx.o(.text) refers to startup_stm32f40xx.o(HEAP) for Heap_Mem
+    startup_stm32f40xx.o(.text) refers to startup_stm32f40xx.o(STACK) for Stack_Mem
+    crcm.o(.text) refers to crcm.o(.constdata) for Crc16TableModBus
+    at26df.o(.text) refers to stm32f4xx_rcc.o(.text) for RCC_AHB1PeriphClockCmd
+    at26df.o(.text) refers to stm32f4xx_gpio.o(.text) for GPIO_PinAFConfig
+    at26df.o(.text) refers to stm32f4xx_spi.o(.text) for SPI_I2S_GetFlagStatus
+    uartdrv.o(.text) refers to stm32f4xx_dma.o(.text) for DMA_Cmd
+    uartdrv.o(.text) refers to stm32f4xx_rcc.o(.text) for RCC_APB1PeriphClockCmd
+    uartdrv.o(.text) refers to stm32f4xx_gpio.o(.text) for GPIO_PinAFConfig
+    uartdrv.o(.text) refers to stm32f4xx_usart.o(.text) for USART_OverSampling8Cmd
+    tn_task_usart.o(.text) refers to stm32f4xx_dma.o(.text) for DMA_GetCurrDataCounter
+    tn_task_usart.o(.text) refers to tn_tasks_1.o(.text) for tn_task_sleep
+    tn_task_usart.o(.text) refers to tn_task_usart.o(.data) for usart3
+    tn_task_usart.o(.text) refers to tn_task_usart.o(.bss) for task_uart
+    tn_task_usart.o(.data) refers to tn_task_usart.o(.bss) for txbufUSART3
+    appgui.o(.text) refers to lcdhal_universal.o(.text) for LCD_Init
+    appgui.o(.text) refers to guiprimitives.o(.text) for LCD_Clear
+    appgui.o(.text) refers to guitouchcalibration.o(.text) for touchLoadCoef
+    appgui.o(.text) refers to ads7843_207z.o(.text) for getTouchState
+    appgui.o(.text) refers to tn_tasks_1.o(.text) for tn_task_sleep
+    appgui.o(.text) refers to hmi_control.o(.text) for HMI_Control
+    appgui.o(.text) refers to appgui.o(.bss) for task_appGUI
+    hmi_control.o(.text) refers to widget.o(.text) for wmTouchControl
+    hmi_control.o(.text) refers to guitextbutton.o(.text) for TextButtonStateRefresh
+    hmi_control.o(.text) refers to guiradiogroup.o(.text) for RadioGroupTouchControl
+    hmi_control.o(.text) refers to guicheckbox.o(.text) for CheckBoxTouchControl
+    hmi_control.o(.text) refers to guiupdownbox.o(.text) for UpDownTouchControl
+    hmi_control.o(.text) refers to guilabel.o(.text) for guiLabelDraw
+    hmi_control.o(.text) refers to guichart.o(.text) for guiChartDraw
+    hmi_control.o(.text) refers to guiprimitives.o(.text) for LCD_Clear
+    hmi_control.o(.text) refers to winmain.o(.text) for winMainInit
+    hmi_control.o(.text) refers to winuartcfg.o(.text) for winUartCfgInit
+    hmi_control.o(.text) refers to winplot.o(.text) for winPlotInit
+    hmi_control.o(.text) refers to ads7843_207z.o(.text) for touchGetSense
+    hmi_control.o(.text) refers to hmi_control.o(.bss) for gui
+    hmi_control.o(.text) refers to hmi_control.o(.data) for windowID
+    winmain.o(.text) refers to hmi_control.o(.text) for HMI_ChangeWindow
+    winmain.o(.text) refers to guitextbutton.o(.text) for defaultTextButtonInit
+    winmain.o(.text) refers to guilabel.o(.text) for labelInit
+    winmain.o(.text) refers to widget.o(.text) for wmTextInit
+    winmain.o(.text) refers to winmain.o(.data) for wMainBtnStr
+    winmain.o(.text) refers to guifontsmin.o(.data) for GL_ArialNarrow_15
+    winmain.o(.data) refers to winmain.o(.conststring) for .conststring
+    winuartcfg.o(.text) refers to hmi_control.o(.text) for HMI_ChangeWindow
+    winuartcfg.o(.text) refers to guitextbutton.o(.text) for defaultTextButtonInit
+    winuartcfg.o(.text) refers to guilabel.o(.text) for labelInit
+    winuartcfg.o(.text) refers to widget.o(.text) for wmTextInit
+    winuartcfg.o(.text) refers to guiradiogroup.o(.text) for defaultRadioGroupInit
+    winuartcfg.o(.text) refers to winuartcfg.o(.data) for wUartCfgBtnStr
+    winuartcfg.o(.text) refers to guifontsmin.o(.data) for GL_ArialNarrow_15
+    winuartcfg.o(.text) refers to guicheckbox.o(.text) for defaultCheckInit
+    winuartcfg.o(.text) refers to guiupdownbox.o(.text) for UpDownBoxLblTextInit
+    winuartcfg.o(.data) refers to winuartcfg.o(.conststring) for .conststring
+    winplot.o(.text) refers to dflt_clz.o(x$fpl$dfltu) for __aeabi_ui2d
+    winplot.o(.text) refers to f2d.o(x$fpl$f2d) for __aeabi_f2d
+    winplot.o(.text) refers to dmul.o(x$fpl$dmul) for __aeabi_dmul
+    winplot.o(.text) refers to ddiv.o(x$fpl$ddiv) for __aeabi_ddiv
+    winplot.o(.text) refers to sin.o(i.__hardfp_sin) for __hardfp_sin
+    winplot.o(.text) refers to dflt_clz.o(x$fpl$dflt) for __aeabi_i2d
+    winplot.o(.text) refers to daddsub_clz.o(x$fpl$dadd) for __aeabi_dadd
+    winplot.o(.text) refers to dfixu.o(x$fpl$dfixu) for __aeabi_d2uiz
+    winplot.o(.text) refers to d2f.o(x$fpl$d2f) for __aeabi_d2f
+    winplot.o(.text) refers to guichart.o(.text) for guiChartRefresh
+    winplot.o(.text) refers to guitextbutton.o(.text) for defaultTextButtonInit
+    winplot.o(.text) refers to guilabel.o(.text) for labelInit
+    winplot.o(.text) refers to winplot.o(.data) for gWidth
+    winplot.o(.text) refers to guifontsmin.o(.data) for GL_ArialNarrow_15
+    winplot.o(.text) refers to hmi_control.o(.text) for HMIBtn_Exit
+    winplot.o(.text) refers to widget.o(.text) for wmTextInit
+    winplot.o(.data) refers to winplot.o(.conststring) for .conststring
+    __main.o(!!!main) refers to __rtentry.o(.ARM.Collect$$rtentry$$00000000) for __rt_entry
+    d2f.o(x$fpl$d2f) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    d2f.o(x$fpl$d2f) refers to fretinf.o(x$fpl$fretinf) for __fpl_fretinf
+    d2f.o(x$fpl$d2f) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    daddsub_clz.o(x$fpl$dadd) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    daddsub_clz.o(x$fpl$dadd) refers to daddsub_clz.o(x$fpl$dsub) for _dsub1
+    daddsub_clz.o(x$fpl$dadd) refers to dretinf.o(x$fpl$dretinf) for __fpl_dretinf
+    daddsub_clz.o(x$fpl$dadd) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    daddsub_clz.o(x$fpl$drsb) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    daddsub_clz.o(x$fpl$drsb) refers to daddsub_clz.o(x$fpl$dadd) for _dadd1
+    daddsub_clz.o(x$fpl$drsb) refers to daddsub_clz.o(x$fpl$dsub) for _dsub1
+    daddsub_clz.o(x$fpl$dsub) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    daddsub_clz.o(x$fpl$dsub) refers to daddsub_clz.o(x$fpl$dadd) for _dadd1
+    daddsub_clz.o(x$fpl$dsub) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    ddiv.o(x$fpl$drdiv) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    ddiv.o(x$fpl$drdiv) refers to ddiv.o(x$fpl$ddiv) for ddiv_entry
+    ddiv.o(x$fpl$ddiv) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    ddiv.o(x$fpl$ddiv) refers to dretinf.o(x$fpl$dretinf) for __fpl_dretinf
+    ddiv.o(x$fpl$ddiv) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    dfixu.o(x$fpl$dfixu) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dfixu.o(x$fpl$dfixu) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    dfixu.o(x$fpl$dfixur) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dfixu.o(x$fpl$dfixur) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    dflt_clz.o(x$fpl$dfltu) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dflt_clz.o(x$fpl$dflt) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dflt_clz.o(x$fpl$dfltn) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dleqf.o(x$fpl$dleqf) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dleqf.o(x$fpl$dleqf) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    dleqf.o(x$fpl$dleqf) refers to dcmpi.o(x$fpl$dcmpinf) for __fpl_dcmp_Inf
+    dmul.o(x$fpl$dmul) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dmul.o(x$fpl$dmul) refers to dretinf.o(x$fpl$dretinf) for __fpl_dretinf
+    dmul.o(x$fpl$dmul) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    drleqf.o(x$fpl$drleqf) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    drleqf.o(x$fpl$drleqf) refers to dleqf.o(x$fpl$dleqf) for __fpl_dcmple_InfNaN
+    f2d.o(x$fpl$f2d) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    f2d.o(x$fpl$f2d) refers to fnaninf.o(x$fpl$fnaninf) for __fpl_fnaninf
+    f2d.o(x$fpl$f2d) refers to dretinf.o(x$fpl$dretinf) for __fpl_dretinf
+    sin.o(i.__hardfp_sin) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    sin.o(i.__hardfp_sin) refers to _rserrno.o(.text) for __set_errno
+    sin.o(i.__hardfp_sin) refers to dunder.o(i.__mathlib_dbl_invalid) for __mathlib_dbl_invalid
+    sin.o(i.__hardfp_sin) refers to dunder.o(i.__mathlib_dbl_infnan) for __mathlib_dbl_infnan
+    sin.o(i.__hardfp_sin) refers to rred.o(i.__ieee754_rem_pio2) for __ieee754_rem_pio2
+    sin.o(i.__hardfp_sin) refers to cos_i.o(i.__kernel_cos) for __kernel_cos
+    sin.o(i.__hardfp_sin) refers to basic.o(x$fpl$basic) for __aeabi_dneg
+    sin.o(i.__hardfp_sin) refers to sin_i.o(i.__kernel_sin) for __kernel_sin
+    sin.o(i.__softfp_sin) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    sin.o(i.__softfp_sin) refers to sin.o(i.__hardfp_sin) for __hardfp_sin
+    sin.o(i.sin) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    sin.o(i.sin) refers to sin.o(i.__hardfp_sin) for __hardfp_sin
+    sin_x.o(i.____hardfp_sin$lsc) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    sin_x.o(i.____hardfp_sin$lsc) refers to _rserrno.o(.text) for __set_errno
+    sin_x.o(i.____hardfp_sin$lsc) refers to dunder.o(i.__mathlib_dbl_infnan) for __mathlib_dbl_infnan
+    sin_x.o(i.____hardfp_sin$lsc) refers to rred.o(i.__ieee754_rem_pio2) for __ieee754_rem_pio2
+    sin_x.o(i.____hardfp_sin$lsc) refers to cos_i.o(i.__kernel_cos) for __kernel_cos
+    sin_x.o(i.____hardfp_sin$lsc) refers to basic.o(x$fpl$basic) for __aeabi_dneg
+    sin_x.o(i.____hardfp_sin$lsc) refers to sin_i.o(i.__kernel_sin) for __kernel_sin
+    sin_x.o(i.____softfp_sin$lsc) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    sin_x.o(i.____softfp_sin$lsc) refers to sin_x.o(i.____hardfp_sin$lsc) for ____hardfp_sin$lsc
+    sin_x.o(i.__sin$lsc) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    sin_x.o(i.__sin$lsc) refers to sin_x.o(i.____hardfp_sin$lsc) for ____hardfp_sin$lsc
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$0000000A) for __rt_entry_li
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) for __rt_entry_main
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$0000000C) for __rt_entry_postli_1
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$00000009) for __rt_entry_postsh_1
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$00000002) for __rt_entry_presh_1
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry4.o(.ARM.Collect$$rtentry$$00000004) for __rt_entry_sh
+    _rserrno.o(.text) refers to rt_errno_addr_intlibspace.o(.text) for __aeabi_errno_addr
+    basic.o(x$fpl$basic) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dcmpi.o(x$fpl$dcmpinf) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dnaninf.o(x$fpl$dnaninf) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dretinf.o(x$fpl$dretinf) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fnaninf.o(x$fpl$fnaninf) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fretinf.o(x$fpl$fretinf) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    cos_i.o(i.__kernel_cos) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    cos_i.o(i.__kernel_cos) refers to dfix.o(x$fpl$dfix) for __aeabi_d2iz
+    cos_i.o(i.__kernel_cos) refers to dmul.o(x$fpl$dmul) for __aeabi_dmul
+    cos_i.o(i.__kernel_cos) refers to poly.o(i.__kernel_poly) for __kernel_poly
+    cos_i.o(i.__kernel_cos) refers to daddsub_clz.o(x$fpl$dsub) for __aeabi_dsub
+    cos_i.o(i.__kernel_cos) refers to daddsub_clz.o(x$fpl$drsb) for __aeabi_drsub
+    cos_i.o(i.__kernel_cos) refers to cos_i.o(.constdata) for .constdata
+    cos_i.o(.constdata) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dunder.o(i.__mathlib_dbl_divzero) refers to ddiv.o(x$fpl$ddiv) for __aeabi_ddiv
+    dunder.o(i.__mathlib_dbl_infnan) refers to daddsub_clz.o(x$fpl$dadd) for __aeabi_dadd
+    dunder.o(i.__mathlib_dbl_infnan2) refers to daddsub_clz.o(x$fpl$dadd) for __aeabi_dadd
+    dunder.o(i.__mathlib_dbl_invalid) refers to ddiv.o(x$fpl$ddiv) for __aeabi_ddiv
+    dunder.o(i.__mathlib_dbl_overflow) refers to dmul.o(x$fpl$dmul) for __aeabi_dmul
+    dunder.o(i.__mathlib_dbl_posinfnan) refers to dmul.o(x$fpl$dmul) for __aeabi_dmul
+    dunder.o(i.__mathlib_dbl_underflow) refers to dmul.o(x$fpl$dmul) for __aeabi_dmul
+    rred.o(i.__ieee754_rem_pio2) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    rred.o(i.__ieee754_rem_pio2) refers to daddsub_clz.o(x$fpl$dsub) for __aeabi_dsub
+    rred.o(i.__ieee754_rem_pio2) refers to daddsub_clz.o(x$fpl$dadd) for __aeabi_dadd
+    rred.o(i.__ieee754_rem_pio2) refers to fabs.o(i.fabs) for fabs
+    rred.o(i.__ieee754_rem_pio2) refers to dmul.o(x$fpl$dmul) for __aeabi_dmul
+    rred.o(i.__ieee754_rem_pio2) refers to dfix.o(x$fpl$dfix) for __aeabi_d2iz
+    rred.o(i.__ieee754_rem_pio2) refers to dflt_clz.o(x$fpl$dflt) for __aeabi_i2d
+    rred.o(i.__ieee754_rem_pio2) refers to daddsub_clz.o(x$fpl$drsb) for __aeabi_drsub
+    rred.o(i.__ieee754_rem_pio2) refers to basic.o(x$fpl$basic) for __aeabi_dneg
+    rred.o(i.__ieee754_rem_pio2) refers to dflt_clz.o(x$fpl$dfltu) for __aeabi_ui2d
+    rred.o(i.__ieee754_rem_pio2) refers to rred.o(.constdata) for .constdata
+    rred.o(i.__use_accurate_range_reduction) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    rred.o(.constdata) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    sin_i.o(i.__kernel_sin) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    sin_i.o(i.__kernel_sin) refers to fpclassify.o(i.__ARM_fpclassify) for __ARM_fpclassify
+    sin_i.o(i.__kernel_sin) refers to dunder.o(i.__mathlib_dbl_underflow) for __mathlib_dbl_underflow
+    sin_i.o(i.__kernel_sin) refers to dmul.o(x$fpl$dmul) for __aeabi_dmul
+    sin_i.o(i.__kernel_sin) refers to poly.o(i.__kernel_poly) for __kernel_poly
+    sin_i.o(i.__kernel_sin) refers to daddsub_clz.o(x$fpl$dsub) for __aeabi_dsub
+    sin_i.o(i.__kernel_sin) refers to daddsub_clz.o(x$fpl$drsb) for __aeabi_drsub
+    sin_i.o(i.__kernel_sin) refers to daddsub_clz.o(x$fpl$dadd) for __aeabi_dadd
+    sin_i.o(i.__kernel_sin) refers to sin_i.o(.constdata) for .constdata
+    sin_i.o(.constdata) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    sin_i_x.o(i.____kernel_sin$lsc) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    sin_i_x.o(i.____kernel_sin$lsc) refers to dmul.o(x$fpl$dmul) for __aeabi_dmul
+    sin_i_x.o(i.____kernel_sin$lsc) refers to poly.o(i.__kernel_poly) for __kernel_poly
+    sin_i_x.o(i.____kernel_sin$lsc) refers to daddsub_clz.o(x$fpl$dsub) for __aeabi_dsub
+    sin_i_x.o(i.____kernel_sin$lsc) refers to daddsub_clz.o(x$fpl$drsb) for __aeabi_drsub
+    sin_i_x.o(i.____kernel_sin$lsc) refers to daddsub_clz.o(x$fpl$dadd) for __aeabi_dadd
+    sin_i_x.o(i.____kernel_sin$lsc) refers to sin_i_x.o(.constdata) for .constdata
+    sin_i_x.o(.constdata) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    __rtentry2.o(.ARM.Collect$$rtentry$$00000008) refers to boardinit2.o(.text) for _platform_post_stackheap_init
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000A) refers to libinit.o(.ARM.Collect$$libinit$$00000000) for __rt_lib_init
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000B) refers to boardinit3.o(.text) for _platform_post_lib_init
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) refers to main.o(.text) for main
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) refers to exit.o(.text) for exit
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$00000001) for .ARM.Collect$$rtentry$$00000001
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$00000008) for .ARM.Collect$$rtentry$$00000008
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$0000000A) for .ARM.Collect$$rtentry$$0000000A
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$0000000B) for .ARM.Collect$$rtentry$$0000000B
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) for .ARM.Collect$$rtentry$$0000000D
+    __rtentry4.o(.ARM.Collect$$rtentry$$00000004) refers to sys_stackheap_outer.o(.text) for __user_setup_stackheap
+    __rtentry4.o(.ARM.exidx) refers to __rtentry4.o(.ARM.Collect$$rtentry$$00000004) for .ARM.Collect$$rtentry$$00000004
+    rt_errno_addr.o(.text) refers to rt_errno_addr.o(.bss) for __aeabi_errno_addr_data
+    rt_errno_addr_intlibspace.o(.text) refers to libspace.o(.bss) for __libspace_start
+    dfix.o(x$fpl$dfix) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dfix.o(x$fpl$dfix) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    dfix.o(x$fpl$dfixr) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dfix.o(x$fpl$dfixr) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    fabs.o(i.__hardfp_fabs) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fabs.o(i.__softfp_fabs) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fabs.o(i.fabs) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fpclassify.o(i.__ARM_fpclassify) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    poly.o(i.__kernel_poly) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    poly.o(i.__kernel_poly) refers to dmul.o(x$fpl$dmul) for __aeabi_dmul
+    poly.o(i.__kernel_poly) refers to daddsub_clz.o(x$fpl$dadd) for __aeabi_dadd
+    libspace.o(.text) refers to libspace.o(.bss) for __libspace_start
+    sys_stackheap_outer.o(.text) refers to libspace.o(.text) for __user_perproc_libspace
+    sys_stackheap_outer.o(.text) refers to startup_stm32f40xx.o(.text) for __user_initial_stackheap
+    exit.o(.text) refers to rtexit.o(.ARM.Collect$$rtexit$$00000000) for __rt_exit
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000002E) for __rt_lib_init_alloca_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000002C) for __rt_lib_init_argv_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000001B) for __rt_lib_init_atexit_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000021) for __rt_lib_init_clock_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000032) for __rt_lib_init_cpp_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000030) for __rt_lib_init_exceptions_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000001) for __rt_lib_init_fp_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000001F) for __rt_lib_init_fp_trap_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000023) for __rt_lib_init_getenv_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000000A) for __rt_lib_init_heap_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000011) for __rt_lib_init_lc_collate_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000013) for __rt_lib_init_lc_ctype_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000015) for __rt_lib_init_lc_monetary_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000017) for __rt_lib_init_lc_numeric_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000019) for __rt_lib_init_lc_time_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000004) for __rt_lib_init_preinit_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000000E) for __rt_lib_init_rand_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000033) for __rt_lib_init_return
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000001D) for __rt_lib_init_signal_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000025) for __rt_lib_init_stdio_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000000C) for __rt_lib_init_user_alloc_1
+    rtexit.o(.ARM.Collect$$rtexit$$00000000) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000004) for __rt_exit_exit
+    rtexit.o(.ARM.Collect$$rtexit$$00000000) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000003) for __rt_exit_ls
+    rtexit.o(.ARM.Collect$$rtexit$$00000000) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000002) for __rt_exit_prels_1
+    rtexit.o(.ARM.exidx) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000004) for __rt_exit_exit
+    rtexit.o(.ARM.exidx) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000003) for __rt_exit_ls
+    rtexit.o(.ARM.exidx) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000002) for __rt_exit_prels_1
+    rtexit.o(.ARM.exidx) refers to rtexit.o(.ARM.Collect$$rtexit$$00000000) for .ARM.Collect$$rtexit$$00000000
+    libinit2.o(.ARM.Collect$$libinit$$00000001) refers to fpinit.o(x$fpl$fpinit) for _fp_init
+    libinit2.o(.ARM.Collect$$libinit$$00000010) refers to libinit2.o(.ARM.Collect$$libinit$$0000000F) for .ARM.Collect$$libinit$$0000000F
+    libinit2.o(.ARM.Collect$$libinit$$00000012) refers to libinit2.o(.ARM.Collect$$libinit$$0000000F) for .ARM.Collect$$libinit$$0000000F
+    libinit2.o(.ARM.Collect$$libinit$$00000014) refers to libinit2.o(.ARM.Collect$$libinit$$0000000F) for .ARM.Collect$$libinit$$0000000F
+    libinit2.o(.ARM.Collect$$libinit$$00000016) refers to libinit2.o(.ARM.Collect$$libinit$$0000000F) for .ARM.Collect$$libinit$$0000000F
+    libinit2.o(.ARM.Collect$$libinit$$00000018) refers to libinit2.o(.ARM.Collect$$libinit$$0000000F) for .ARM.Collect$$libinit$$0000000F
+    libinit2.o(.ARM.Collect$$libinit$$00000026) refers to argv_veneer.o(.emb_text) for __ARM_argv_veneer
+    libinit2.o(.ARM.Collect$$libinit$$00000027) refers to argv_veneer.o(.emb_text) for __ARM_argv_veneer
+    rtexit2.o(.ARM.Collect$$rtexit$$00000003) refers to libshutdown.o(.ARM.Collect$$libshutdown$$00000000) for __rt_lib_shutdown
+    rtexit2.o(.ARM.Collect$$rtexit$$00000004) refers to sys_exit.o(.text) for _sys_exit
+    rtexit2.o(.ARM.exidx) refers to rtexit2.o(.ARM.Collect$$rtexit$$00000001) for .ARM.Collect$$rtexit$$00000001
+    rtexit2.o(.ARM.exidx) refers to rtexit2.o(.ARM.Collect$$rtexit$$00000003) for .ARM.Collect$$rtexit$$00000003
+    rtexit2.o(.ARM.exidx) refers to rtexit2.o(.ARM.Collect$$rtexit$$00000004) for .ARM.Collect$$rtexit$$00000004
+    argv_veneer.o(.emb_text) refers to no_argv.o(.text) for __ARM_get_argv
+    sys_exit.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_exit.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    _get_argv_nomalloc.o(.text) refers (Special) to hrguard.o(.text) for __heap_region$guard
+    _get_argv_nomalloc.o(.text) refers to defsig_rtmem_outer.o(.text) for __rt_SIGRTMEM
+    _get_argv_nomalloc.o(.text) refers to sys_command.o(.text) for _sys_command_string
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000006) for __rt_lib_shutdown_fp_trap_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000E) for __rt_lib_shutdown_heap_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F) for __rt_lib_shutdown_return
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000009) for __rt_lib_shutdown_signal_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000003) for __rt_lib_shutdown_stdio_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000B) for __rt_lib_shutdown_user_alloc_1
+    sys_command.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_command.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    defsig_rtmem_outer.o(.text) refers to defsig_rtmem_inner.o(.text) for __rt_SIGRTMEM_inner
+    defsig_rtmem_outer.o(.text) refers to defsig_exit.o(.text) for __sig_exit
+    defsig_rtmem_formal.o(.text) refers to rt_raise.o(.text) for __rt_raise
+    rt_raise.o(.text) refers to __raise.o(.text) for __raise
+    rt_raise.o(.text) refers to sys_exit.o(.text) for _sys_exit
+    defsig_exit.o(.text) refers to sys_exit.o(.text) for _sys_exit
+    defsig_rtmem_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    __raise.o(.text) refers to defsig.o(CL$$defsig) for __default_signal_handler
+    defsig_general.o(.text) refers to sys_wrch.o(.text) for _ttywrch
+    sys_wrch.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_wrch.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    defsig.o(CL$$defsig) refers to defsig_rtmem_inner.o(.text) for __rt_SIGRTMEM_inner
+    defsig_abrt_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_fpe_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_rtred_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_stak_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_pvfn_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_cppl_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_segv_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_other.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+
