@@ -19,7 +19,7 @@
           
           
           
-        <Column0>102</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+        <Column0>287</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
       </Workspace>
       <Disassembly>
         <col-names>
@@ -34,7 +34,7 @@
         
         
       <ShowCodeCoverage>1</ShowCodeCoverage><ShowInstrProfiling>1</ShowInstrProfiling></Disassembly>
-    <Memory><FindAsHex>0</FindAsHex></Memory><WATCH_1><expressions><item>BmpAddress</item><item>size</item><item>LCD_Currentfonts</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>70</item><item>100</item><item>100</item></col-widths></WATCH_1><Find-in-Files><ColumnWidth0>377</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>566</ColumnWidth2><ColumnWidth3>251</ColumnWidth3></Find-in-Files><QuickWatch><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>150</item><item>100</item><item>100</item></col-widths><QWatchHistory><item>LCD_Currentfonts</item></QWatchHistory></QuickWatch></Static>
+    <Memory><FindAsHex>0</FindAsHex></Memory><WATCH_1><expressions><item>BmpAddress</item><item>size</item><item>LCD_Currentfonts</item><item>c[index]</item><item>index</item><item>buffer</item><item>screen</item><item>coord</item><item></item></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>70</item><item>100</item><item>170</item></col-widths></WATCH_1><Find-in-Files><ColumnWidth0>377</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>566</ColumnWidth2><ColumnWidth3>251</ColumnWidth3></Find-in-Files><QuickWatch><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>150</item><item>100</item><item>100</item></col-widths><QWatchHistory><item>LCD_Currentfonts</item></QWatchHistory></QuickWatch></Static>
     <Windows>
       
       
@@ -63,7 +63,7 @@
             <Factory>Workspace</Factory>
             <Session>
               
-            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341/User</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341/User/stm324xg_eval_lcd.c</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL/Application</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL/Application/User</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL/Application/User/main.c</ExpandedNode></NodeDict></Session>
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341/User</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341/User/main.c</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL/Application</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL/Application/User</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd_ILI9341_HAL/Application/User/main.c</ExpandedNode></NodeDict></Session>
           </Tab>
         </Tabs>
         
@@ -83,14 +83,14 @@
       
       
       
-    <Pane/><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\lcd_ILI9341\Src\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>105</YPos2><SelStart2>4155</SelStart2><SelEnd2>4155</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\lcd_ILI9341\Inc\main.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>15</YPos2><SelStart2>1192</SelStart2><SelEnd2>1192</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\lcd_ILI9341\Src\system_stm32f4xx.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>570</YPos2><SelStart2>28666</SelStart2><SelEnd2>28693</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>121</YPos2><SelStart2>6668</SelStart2><SelEnd2>6668</SelEnd2></Tab><ActiveTab>3</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
       
       
       
       
       
-    <Top><Row0><Sizes><Toolbar-0267BBE8><key>iaridepm.enu1</key></Toolbar-0267BBE8></Sizes></Row0><Row1><Sizes><Toolbar-12FFFF98><key>debuggergui.enu1</key></Toolbar-12FFFF98></Sizes></Row1><Row2><Sizes><Toolbar-13003260><key>armstlink.enu1</key></Toolbar-13003260></Sizes></Row2></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>661</Bottom><Right>193</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>210084</sizeHorzCY><sizeVertCX>152344</sizeVertCX><sizeVertCY>696429</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>661</Bottom><Right>236</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>210084</sizeHorzCY><sizeVertCX>185938</sizeVertCX><sizeVertCY>696429</sizeVertCY></Rect></Wnd2></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>200</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>210084</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>210084</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+    <Top><Row0><Sizes><Toolbar-00EFBD98><key>iaridepm.enu1</key></Toolbar-00EFBD98></Sizes></Row0><Row1><Sizes><Toolbar-152A7A90><key>debuggergui.enu1</key></Toolbar-152A7A90></Sizes></Row1><Row2><Sizes><Toolbar-152B4F10><key>armstlink.enu1</key></Toolbar-152B4F10></Sizes></Row2></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>656</Bottom><Right>378</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>210084</sizeHorzCY><sizeVertCX>296875</sizeVertCX><sizeVertCY>691176</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>656</Bottom><Right>209</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>210084</sizeHorzCY><sizeVertCX>164844</sizeVertCX><sizeVertCY>691176</sizeVertCY></Rect></Wnd2></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>203</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>205</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>215336</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>210084</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Project>
 

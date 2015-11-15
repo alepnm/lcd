@@ -1,10 +1,12 @@
-"D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\XPT2046.c"
+"D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\Src\XPT2046.c"
 -std=c99
 -ferror-limit=100
 -include
-D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\..\global.h
+D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\..\Inc\global.h
 -I
-D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\..
+D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\..\Src
+-I
+D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\..\Inc
 -I
 D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include
 -I
@@ -14,13 +16,27 @@ D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\..\..\..\Utilities\STM32_EVAL\
 -I
 D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL
 -I
+D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\..\..\..\Utilities\Third_Party\FreeRTOS\Source
+-I
+D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\IAR
+-I
+D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F
+-I
+D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\MemMang
+-I
+D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include
+-I
+D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\EWARM\..\..\..\Utilities\Third_Party\FreeRTOS\Source\CMSIS_RTOS
+-I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\CMSIS\Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\inc\c
 -I
-D:\git\lcd\SPL_Projects\Project\lcd_ILI9341
+D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\Src
+-I
+D:\git\lcd\SPL_Projects\Project\lcd_ILI9341\Inc
 -I
 D:\git\lcd\SPL_Projects\Libraries\CMSIS\Device\ST\STM32F4xx\Include
 -I
@@ -30,10 +46,20 @@ D:\git\lcd\SPL_Projects\Utilities\STM32_EVAL\Common
 -I
 D:\git\lcd\SPL_Projects\Utilities\STM32_EVAL\STM3240_41_G_EVAL
 -I
+D:\git\lcd\SPL_Projects\Utilities\Third_Party\FreeRTOS\Source
+-I
+D:\git\lcd\SPL_Projects\Utilities\Third_Party\FreeRTOS\Source\portable\IAR
+-I
+D:\git\lcd\SPL_Projects\Utilities\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F
+-I
+D:\git\lcd\SPL_Projects\Utilities\Third_Party\FreeRTOS\Source\portable\MemMang
+-I
+D:\git\lcd\SPL_Projects\Utilities\Third_Party\FreeRTOS\Source\include
+-I
+D:\git\lcd\SPL_Projects\Utilities\Third_Party\FreeRTOS\Source\CMSIS_RTOS
+-I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\CMSIS\Include
 -DUSE_STDPERIPH_DRIVER=1
--DSTM32F40_41xxx=1
--DUSE_STM324xG_EVAL=1
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

@@ -1053,7 +1053,7 @@
   <group>
     <name>CMSIS</name>
     <file>
-      <name>$PROJ_DIR$\..\system_stm32f4xx.c</name>
+      <name>$PROJ_DIR$\..\Src\system_stm32f4xx.c</name>
     </file>
   </group>
   <group>
@@ -1087,6 +1087,39 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f469_479xx.s</name>
+    </file>
+  </group>
+  <group>
+    <name>FreeRTOS</name>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\croutine.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\event_groups.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\list.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\port.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portasm.s</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\queue.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\tasks.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\timers.c</name>
     </file>
   </group>
   <group>
@@ -1224,7 +1257,13 @@
   <group>
     <name>User</name>
     <file>
-      <name>$PROJ_DIR$\..\main.c</name>
+      <name>$PROJ_DIR$\..\Src\freertos.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\functions.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\main.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL\stm324xg_eval.c</name>
@@ -1233,10 +1272,10 @@
       <name>$PROJ_DIR$\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL\stm324xg_eval_lcd.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\stm32f4xx_it.c</name>
+      <name>$PROJ_DIR$\..\Src\stm32f4xx_it.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\XPT2046.c</name>
+      <name>$PROJ_DIR$\..\Src\XPT2046.c</name>
     </file>
   </group>
 </project>

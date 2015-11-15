@@ -2,6 +2,9 @@
 
 <workspace>
   <project>
+    <path>$WS_DIR$\..\..\HAL_Projects\lcd_ILI9341_HAL\EWARM\lcd.ewp</path>
+  </project>
+  <project>
     <path>$WS_DIR$\lcd_ILI9341\EWARM\lcd_ILI9341.ewp</path>
   </project>
   <project>

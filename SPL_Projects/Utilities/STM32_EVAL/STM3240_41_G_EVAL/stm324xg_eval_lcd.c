@@ -286,7 +286,7 @@ void LCD_Init(void)
     LCD_WriteCommand    (0x34); // tearing effect off
     //LCD_WriteCommand(0x35); // tearing effect on
     LCD_WriteCommand    (0x36);		//rotate
-	LCD_WriteRAM        (0x58);	//0x28, 0x58, 0x88, 0xE8
+	LCD_WriteRAM        (0x88);	//0x28, 0x58, 0x88, 0xE8
     //LCD_WriteCommand    (0xB4); // display inversion
     LCD_WriteCommand    (0xB7); // entry mode set
     // Deep Standby Mode: OFF
