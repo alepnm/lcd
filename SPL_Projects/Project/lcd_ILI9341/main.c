@@ -151,19 +151,26 @@ int main(void)
     Delay(100);
     
     
-    LCD_SetTextColor(COLOR.WHITE);
-    LCD_SetBackColor(COLOR.BLACK);
-   
-    const uint16_t stra = 'Q';
+    LCD_SetFont(&Font16x24);
     
-    LCD_DrawChar(100, 100, &stra);
+    LCD_SetTextColor(COLOR.WHITE);
+    LCD_SetBackColor(COLOR.BLUE);
+   
+    LCD_DisplayChar(100, 100, 'Q');
+    LCD_DisplayStringLine(20, "QWERTY");
+    LCD_DisplayStringLine(25, "ASDFGH");
+    
+    
+    XPT2046_Init();
+    
     
    
     /* Infinite loop */
     while (1)
       {
+        XPT2046_Press();
 
-        Delay(500);
+        Delay(100);
       }
   }
 

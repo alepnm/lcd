@@ -251,63 +251,65 @@ void LCD_Init(void)
     SetBit(LCD_RST_PORT, LCD_RST_PIN);
     _delay_(5);
     
-    LCD_WriteCommand (0x01); // software reset comand
+    LCD_WriteCommand    (0x01); // software reset comand
     //LCD_WriteCommand (0x04);   //read Display ID
     _delay_(1);
-    LCD_WriteCommand (0x28); // display off
+    LCD_WriteCommand    (0x28); // display off
     //------------power control------------------------------
-    LCD_WriteCommand (0xC0); // power control
-    LCD_WriteRAM   (0x26); // GVDD = 4.75v
-    LCD_WriteCommand (0xC1); // power control
-    LCD_WriteRAM   (0x11); // AVDD=VCIx2, VGH=VCIx7, VGL=-VCIx3
+    LCD_WriteCommand    (0xC0); // power control
+    LCD_WriteRAM        (0x26); // GVDD = 4.75v
+    LCD_WriteCommand    (0xC1); // power control
+    LCD_WriteRAM        (0x11); // AVDD=VCIx2, VGH=VCIx7, VGL=-VCIx3
     //--------------VCOM-------------------------------------
-    LCD_WriteCommand (0xC5); // vcom control
-    LCD_WriteRAM   (0x35); // Set the VCOMH voltage (0x35 = 4.025v)
-    LCD_WriteRAM   (0x3E); // Set the VCOML voltage (0x3E = -0.950v)
-    LCD_WriteCommand (0xC7); // vcom control
-    LCD_WriteRAM   (0xBE); // 0x94 (0xBE = nVM: 1, VCOMH: VMH–2, VCOML: VML–2)
+    LCD_WriteCommand    (0xC5); // vcom control
+    LCD_WriteRAM        (0x35); // Set the VCOMH voltage (0x35 = 4.025v)
+    LCD_WriteRAM        (0x3E); // Set the VCOML voltage (0x3E = -0.950v)
+    LCD_WriteCommand    (0xC7); // vcom control
+    LCD_WriteRAM        (0xBE); // 0x94 (0xBE = nVM: 1, VCOMH: VMH–2, VCOML: VML–2)
     //------------memory access control------------------------
-    LCD_WriteCommand (0x36); // memory access control
-    LCD_WriteRAM   (0x48); // 0048 my,mx,mv,ml,BGR,mh,0.0 (mirrors)
-    LCD_WriteCommand (0x3A); // pixel format set
-    LCD_WriteRAM   (0x55); // 16bit /pixel
+    LCD_WriteCommand    (0x36); // memory access control
+    LCD_WriteRAM        (0x48); // 0048 my,mx,mv,ml,BGR,mh,0.0 (mirrors)
+    LCD_WriteCommand    (0x3A); // pixel format set
+    LCD_WriteRAM        (0x55); // 16bit /pixel
     //-------------ddram ----------------------------
-    LCD_WriteCommand (0x2A); // column set
-    LCD_WriteRAM   (0x00); // x0_HIGH---0
-    LCD_WriteRAM   (0x00); // x0_LOW----0
-    LCD_WriteRAM   (0x00); // x1_HIGH---240
-    LCD_WriteRAM   (0xEF); // x1_LOW----240
-    LCD_WriteCommand (0x2B); // page address set
-    LCD_WriteRAM   (0x00); // y0_HIGH---0
-    LCD_WriteRAM   (0x00); // y0_LOW----0
-    LCD_WriteRAM   (0x01); // y1_HIGH---320
-    LCD_WriteRAM   (0x3F); // y1_LOW----320
+    LCD_WriteCommand    (0x2A); // column set
+    LCD_WriteRAM        (0x00); // x0_HIGH---0
+    LCD_WriteRAM        (0x00); // x0_LOW----0
+    LCD_WriteRAM        (0x00); // x1_HIGH---240
+    LCD_WriteRAM        (0xEF); // x1_LOW----240
+    LCD_WriteCommand    (0x2B); // page address set
+    LCD_WriteRAM        (0x00); // y0_HIGH---0
+    LCD_WriteRAM        (0x00); // y0_LOW----0
+    LCD_WriteRAM        (0x01); // y1_HIGH---320
+    LCD_WriteRAM        (0x3F); // y1_LOW----320
     //LCD_WriteCommand (0x2E);   // memory read
-    LCD_WriteCommand (0x34); // tearing effect off
+    LCD_WriteCommand    (0x34); // tearing effect off
     //LCD_WriteCommand(0x35); // tearing effect on
-    //LCD_WriteCommand(0xb4); // display inversion
-    LCD_WriteCommand (0xB7); // entry mode set
+    LCD_WriteCommand    (0x36);		//rotate
+	LCD_WriteRAM        (0x58);	//0x28, 0x58, 0x88, 0xE8
+    //LCD_WriteCommand    (0xB4); // display inversion
+    LCD_WriteCommand    (0xB7); // entry mode set
     // Deep Standby Mode: OFF
     // Set the output level of gate driver G1~G320: Normal display
     // Low voltage detection: Disable
-    LCD_WriteRAM   (0x07); 
+    LCD_WriteRAM        (0x07); 
     //-----------------display------------------------
-    LCD_WriteCommand (0xB6); // display function control
+    LCD_WriteCommand    (0xB6); // display function control
     //Set the scan mode in non-display area
     //Determine source/VCOM output in a non-display area in the partial display mode
-    LCD_WriteRAM   (0x0A);
+    LCD_WriteRAM        (0x0A);
     //Select whether the liquid crystal type is normally white type or normally black type
     //Sets the direction of scan by the gate driver in the range determined by SCN and NL
     //Select the shift direction of outputs from the source driver
     //Sets the gate driver pin arrangement in combination with the GS bit to select the optimal scan mode for the module
     //Specify the scan cycle interval of gate driver in non-display area when PTG to select interval scan
-    LCD_WriteRAM   (0x82);
+    LCD_WriteRAM        (0x82);
     // Sets the number of lines to drive the LCD at an interval of 8 lines
-    LCD_WriteRAM   (0x27); 
-    LCD_WriteRAM   (0x00); // clock divisor
-    LCD_WriteCommand (0x11); // sleep out
+    LCD_WriteRAM        (0x27); 
+    LCD_WriteRAM        (0x00); // clock divisor
+    LCD_WriteCommand    (0x11); // sleep out
     _delay_(1);
-    LCD_WriteCommand (0x29); // display on
+    LCD_WriteCommand    (0x29); // display on
     _delay_(1);
     LCD_WriteRAM_Prepare();  
     
@@ -445,29 +447,27 @@ void LCD_SetCursor(uint16_t Xpos, uint16_t Ypos)
 void LCD_DrawChar(uint16_t Xpos, uint16_t Ypos, const uint16_t *c)
   {
     uint32_t index = 0, i = 0;
-    uint16_t  Xaddress = 0;
-    Xaddress = Xpos;
-    
-    LCD_SetCursor(Xaddress, Ypos);
-    
+        
     for(index = 0; index < LCD_Currentfonts->Height; index++)
-      {
-        LCD_WriteRAM_Prepare(); /* Prepare to write GRAM */
+      {       
         for(i = 0; i < LCD_Currentfonts->Width; i++)
           {
             
-            if((((c[index] & ((0x80 << ((LCD_Currentfonts->Width / 12 ) * 8 ) ) >> i)) == 0x00) &&(LCD_Currentfonts->Width <= 12))||
-               (((c[index] & (0x1 << i)) == 0x00)&&(LCD_Currentfonts->Width > 12 )))              
+            LCD_SetCursor(Xpos, Ypos-i);
+            LCD_WriteRAM_Prepare();
+            
+            if( !(((!(c[index] & (0x80 << ((LCD_Currentfonts->Width / 12 ) * 8 ) >> i))) &&
+                (LCD_Currentfonts->Width <= 12)) ||
+               (!(c[index] & (0x01 << i))&&(LCD_Currentfonts->Width > 12 ))))            
               {
-                LCD_WriteRAM(BackColor);
+                LCD_WriteRAM(TextColor);              
               }
             else
               {
-                LCD_WriteRAM(TextColor);
+                LCD_WriteRAM(BackColor);               
               } 
           }
-        Xaddress++;
-        LCD_SetCursor(Xaddress, Ypos);
+        Xpos++;
       }
   }
 

@@ -1221,15 +1221,9 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</name>
-      <excluded>
-        <configuration>Debug</configuration>
-      </excluded>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</name>
-      <excluded>
-        <configuration>Debug</configuration>
-      </excluded>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</name>
@@ -1257,6 +1251,9 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\stm32f4xx_it.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\XPT2046.c</name>
     </file>
   </group>
 </project>

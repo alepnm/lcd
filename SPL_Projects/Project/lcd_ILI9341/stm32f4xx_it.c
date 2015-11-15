@@ -144,6 +144,26 @@ void SysTick_Handler(void)
   TimingDelay_Decrement();
 }
 
+
+/**
+  * @brief  This function handles External line 0 interrupt request.
+  * @param  None
+  * @retval None
+  */
+
+void EXTI15_10_IRQHandler(void)
+{
+  if(EXTI_GetITStatus(EXTI_Line12) != RESET)
+  {
+    /* Toggle LED4 */
+	  GPIO_ToggleBits(GPIOD, GPIO_Pin_13);
+	  //Convert_Pos();
+
+    /* Clear the EXTI line 0 pending bit */
+    EXTI_ClearITPendingBit(EXTI_Line12);
+  }
+}
+
 /******************************************************************************/
 /*                 STM32F4xx Peripherals Interrupt Handlers                   */
 /*  Add here the Interrupt Handler for the used peripheral(s) (PPP), for the  */
