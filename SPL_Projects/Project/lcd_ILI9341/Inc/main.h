@@ -41,6 +41,10 @@
 #define LCD_BL_PIN  GPIO_Pin_12
 #define LCD_RST_PORT GPIOC
 #define LCD_RST_PIN  GPIO_Pin_13
+#define BEEPER_PORT GPIOB
+#define BEEPER_PIN GPIO_Pin_7
+
+
 /* Exported macro ------------------------------------------------------------*/
 /* Exported functions ------------------------------------------------------- */
 

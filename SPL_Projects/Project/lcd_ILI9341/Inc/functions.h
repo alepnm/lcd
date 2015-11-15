@@ -3,8 +3,7 @@
 
 /* Includes ******************************************************************/
 
-#include <stdlib.h>
-#include "stm32f4xx.h"
+#include <stdint.h>
 
 /* Function Prototypes *******************************************************/
 
