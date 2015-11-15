@@ -2,7 +2,7 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>1292629493</fileChecksum>
+  <fileChecksum>1330418228</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
@@ -235,6 +235,7 @@
       <file>$PROJ_DIR$\Debug\Obj\list.o</file>
       <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
       <file>$PROJ_DIR$\Debug\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\..\readme.txt</file>
     </outputs>
     <file>
       <name>$PROJ_DIR$\..\freertos.c</name>
@@ -1320,6 +1321,10 @@
     <forcedrebuild>
       <name>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f411xe.s</name>
       <tool>AARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
     </forcedrebuild>
   </configuration>
 </project>
