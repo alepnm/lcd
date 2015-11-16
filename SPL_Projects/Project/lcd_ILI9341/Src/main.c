@@ -46,6 +46,7 @@ __IO uint32_t uwTimingDelay;
 osThreadId defaultTaskHandle;
 RCC_ClocksTypeDef RCC_Clocks;
 
+
 /* Private function prototypes -----------------------------------------------*/
 static void Delay(__IO uint32_t nTime);
 
@@ -63,7 +64,7 @@ void xTIM_Init()
         
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM4, ENABLE);
     
-    /* Time base configuration Timer freq = 1kHz */
+    /* Time base configuration */
     TIM_TimeBaseStructure.TIM_Period = 65535;
     TIM_TimeBaseStructure.TIM_Prescaler = (uint16_t) ((SystemCoreClock/2) / 21000000) - 1;
     TIM_TimeBaseStructure.TIM_ClockDivision = 0;
@@ -78,12 +79,12 @@ void xTIM_Init()
     TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_Low;    
     TIM_OC1Init(TIM4, &TIM_OCInitStructure);
     
-    TIM_OC1PreloadConfig(TIM4, TIM_OCPreload_Enable);
+    TIM_OC1PreloadConfig(TIM4, TIM_OCPreload_Disable);
     
     
     /* Output Compare Mode configuration: Channel2 */
     TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_Toggle;
-    TIM_OCInitStructure.TIM_Pulse = 10000;
+    TIM_OCInitStructure.TIM_Pulse = 4000;
     TIM_OC2Init(TIM4, &TIM_OCInitStructure);
     
     TIM_OC2PreloadConfig(TIM4, TIM_OCPreload_Disable);    
@@ -112,6 +113,9 @@ void xGPIO_Init()
     GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL;
     GPIO_Init(LCD_BL_PORT, &GPIO_InitStructure);
     
+    /* Connect TIM4 pins to AF2 */ 
+    GPIO_PinAFConfig(LCD_BL_PORT, GPIO_PinSource12, GPIO_AF_TIM4);
+    
     /* Beeper pin */
     GPIO_InitStructure.GPIO_Pin = BEEPER_PIN;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
@@ -121,11 +125,9 @@ void xGPIO_Init()
     GPIO_Init(BEEPER_PORT, &GPIO_InitStructure);
     
     /* Connect TIM4 pins to AF2 */ 
-    GPIO_PinAFConfig(LCD_BL_PORT, GPIO_PinSource12, GPIO_AF_TIM4);
-    GPIO_PinAFConfig(BEEPER_PORT, GPIO_PinSource7, GPIO_AF_TIM4);
+    GPIO_PinAFConfig(BEEPER_PORT, GPIO_PinSource7, GPIO_AF_TIM4); 
     
-    
-    
+    /* LCD RST pin */
     GPIO_InitStructure.GPIO_Pin = LCD_RST_PIN;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
     GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
@@ -158,9 +160,8 @@ int main(void)
     xGPIO_Init();  
     
     STM_EVAL_LEDInit(LED3);
+    //STM_EVAL_PBInit(BUTTON_KEY, BUTTON_MODE_GPIO);
     
-    
-   
     LCD_Init();
     LCD_Clear(COLOR.BLUE);
     
@@ -258,6 +259,12 @@ void StartDefaultTask(void const * argument)
     //TIM4->CCER &= ~(TIM_CCER_CC2E | TIM_CCER_CC2P);     //beeper disable, clear polarity
     
     STM_EVAL_LEDToggle(LED3);
+    if(STM_EVAL_PBGetState(BUTTON_WAKEUP))
+      {
+      }
+    else
+      {
+      }
     
     osDelay(20);
   }
