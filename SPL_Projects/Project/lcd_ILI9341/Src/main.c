@@ -75,17 +75,17 @@ void xTIM_Init()
     /* PWM1 Mode configuration: Channel1 */
     TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_PWM1;
     TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable;
-    TIM_OCInitStructure.TIM_Pulse = 16384;
-    TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_Low;    
+    TIM_OCInitStructure.TIM_Pulse = 16383;
+    TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_High;    
     TIM_OC1Init(TIM4, &TIM_OCInitStructure);
     
     TIM_OC1PreloadConfig(TIM4, TIM_OCPreload_Disable);
     
     
     /* Output Compare Mode configuration: Channel2 */
-    TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_Toggle;
+    TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_PWM1;
     TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable;
-    TIM_OCInitStructure.TIM_Pulse = 4000;
+    TIM_OCInitStructure.TIM_Pulse = 40000;
     TIM_OC2Init(TIM4, &TIM_OCInitStructure);
     
     TIM_OC2PreloadConfig(TIM4, TIM_OCPreload_Disable);    
@@ -161,7 +161,7 @@ int main(void)
     xGPIO_Init();  
     
     STM_EVAL_LEDInit(LED3);
-    //STM_EVAL_PBInit(BUTTON_KEY, BUTTON_MODE_GPIO);
+    STM_EVAL_PBInit(BUTTON_KEY, BUTTON_MODE_GPIO);
     
     LCD_Init();
     LCD_Clear(COLOR.BLUE);
