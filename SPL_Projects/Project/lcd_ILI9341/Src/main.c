@@ -84,6 +84,7 @@ void xTIM_Init()
     
     /* Output Compare Mode configuration: Channel2 */
     TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_Toggle;
+    TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable;
     TIM_OCInitStructure.TIM_Pulse = 4000;
     TIM_OC2Init(TIM4, &TIM_OCInitStructure);
     

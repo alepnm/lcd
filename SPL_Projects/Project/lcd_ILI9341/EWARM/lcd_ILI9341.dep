@@ -6,251 +6,219 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\..\Inc\functions.h</file>
-      <file>$PROJ_DIR$\..\Inc\XPT2046.h</file>
-      <file>$PROJ_DIR$\..\Inc\FreeRTOSConfig.h</file>
-      <file>$PROJ_DIR$\..\Inc\global.h</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.pbi</file>
       <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\portable.h</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h</file>
       <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\task.h</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\deprecated_definitions.h</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_fsmc.__cstat.et</file>
       <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
       <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\semphr.h</file>
       <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\event_groups.h</file>
       <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\queue.h</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\deprecated_definitions.h</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\timers.h</file>
       <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_tim.__cstat.et</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\timers.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_fsmc.o</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_tim.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_fsmc.o</file>
       <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\mpu_wrappers.h</file>
       <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\projdefs.h</file>
       <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\FreeRTOS.h</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_it.pbi</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\projdefs.h</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
       <file>$PROJ_DIR$\Debug\List\Project.map</file>
       <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
       <file>$PROJ_DIR$\..\freertos.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f40_41xxx.o</file>
       <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f40_41xxx.o</file>
       <file>$PROJ_DIR$\..\stm32f4xx_it.c</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
       <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
       <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
       <file>$PROJ_DIR$\..\main.c</file>
       <file>$PROJ_DIR$\..\functions.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h</file>
       <file>$PROJ_DIR$\..\XPT2046.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h</file>
       <file>$PROJ_DIR$\stm32f4xx_flash.icf</file>
       <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lcd.pbi</file>
       <file>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h</file>
       <file>$PROJ_DIR$\Debug\Obj\lcd_ILI9341.pbd</file>
-      <file>$PROJ_DIR$\Debug\Obj\lcd.pbi</file>
       <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h</file>
+      <file>$PROJ_DIR$\..\Inc\stm32f4xx_it.h</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_fsmc.pbi</file>
       <file>$PROJ_DIR$\..\Inc\stm32f4xx_conf.h</file>
       <file>$PROJ_DIR$\Debug\Obj\tulips.pbi</file>
       <file>$PROJ_DIR$\..\Inc\main.h</file>
-      <file>$PROJ_DIR$\..\Inc\stm32f4xx_it.h</file>
       <file>$PROJ_DIR$\..\Src\lcd.c</file>
       <file>$PROJ_DIR$\..\Src\tulips.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.o</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portasm.s</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\queue.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f446xx.s</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\event_groups.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f401xx.s</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\list.c</file>
-      <file>$PROJ_DIR$\readme.txt</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\croutine.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f427_437xx.s</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\timers.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\tasks.c</file>
-      <file>$PROJ_DIR$\..\Src\system_stm32f4xx.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f40_41xxx.s</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f429_439xx.s</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f410xx.s</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f469_479xx.s</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f411xe.s</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\port.c</file>
-      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmc.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_exti.__cstat.et</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmpi2c.c</file>
-      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dsi.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_lptim.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c</file>
-      <file>$PROJ_DIR$\..\Src\freertos.c</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\stm324xg_eval.__cstat.et</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_tim.pbi</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_it.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_it.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_it.o</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</file>
       <file>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_sdio.__cstat.et</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm324xg_eval_lcd.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.__cstat.et</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_sdio.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm324xg_eval_lcd.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_usart.pbi</file>
       <file>$PROJ_DIR$\Debug\Exe\Project.out</file>
       <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_usart.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.o</file>
-      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4.h</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_qspi.c</file>
-      <file>$PROJ_DIR$\..\Src\stm32f4xx_it.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_exti.o</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_usart.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_exti.o</file>
       <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_sdio.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\stm324xg_eval.o</file>
       <file>$PROJ_DIR$\Debug\Obj\misc.__cstat.et</file>
-      <file>$PROJ_DIR$\..\Src\main.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$PROJ_DIR$\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL\stm324xg_eval.h</file>
       <file>$PROJ_DIR$\Debug\Obj\stm324xg_eval.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_sdio.o</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL\stm324xg_eval.c</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL\stm324xg_eval_lcd.c</file>
-      <file>$PROJ_DIR$\..\Src\XPT2046.c</file>
-      <file>$PROJ_DIR$\..\Src\functions.c</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sai.c</file>
       <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_spi.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_spi.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\stm324xg_eval_lcd.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\STM32_EVAL\Common\fonts.h</file>
       <file>$PROJ_DIR$\..\system_stm32f4xx.c</file>
       <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h</file>
-      <file>$PROJ_DIR$\..\..\..\Utilities\STM32_EVAL\Common\fonts.h</file>
       <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
       <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\XPT2046.o</file>
       <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\functions.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\XPT2046.o</file>
       <file>$PROJ_DIR$\Debug\Obj\list.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\functions.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\XPT2046.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm324xg_eval_lcd.o</file>
       <file>$PROJ_DIR$\..\..\..\Utilities\STM32_EVAL\Common\fonts.c</file>
       <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.__cstat.et</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm324xg_eval_lcd.o</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h</file>
       <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_syscfg.o</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\croutine.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\functions.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\freertos.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\timers.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\freertos.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_spi.o</file>
       <file>$PROJ_DIR$\Debug\Obj\queue.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\heap_4.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\tasks.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_syscfg.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\event_groups.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
       <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
       <file>$PROJ_DIR$\Debug\Obj\cmsis_os.__cstat.et</file>
-      <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\functions.o</file>
       <file>$PROJ_DIR$\Debug\Obj\heap_4.o</file>
       <file>$PROJ_DIR$\Debug\Obj\heap_4.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\freertos.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_exti.pbi</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
       <file>$PROJ_DIR$\Debug\Obj\XPT2046.__cstat.et</file>
       <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmSimd.h</file>
       <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_syscfg.__cstat.et</file>
-      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_exti.pbi</file>
       <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h</file>
       <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h</file>
       <file>$PROJ_DIR$\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL\stm324xg_eval_lcd.h</file>
       <file>$PROJ_DIR$\Debug\Obj\freertos.__cstat.et</file>
-      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\port.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\port.__cstat.et</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\port.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\port.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\timers.o</file>
       <file>$PROJ_DIR$\Debug\Obj\event_groups.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timers.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\croutine.pbi</file>
       <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\list.h</file>
       <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\StackMacros.h</file>
       <file>$PROJ_DIR$\Debug\Obj\croutine.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\croutine.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\tasks.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\queue.o</file>
       <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h</file>
       <file>$PROJ_DIR$\Debug\Obj\cmsis_os.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\queue.o</file>
       <file>$PROJ_DIR$\Debug\Obj\portasm.o</file>
       <file>$PROJ_DIR$\Debug\Obj\event_groups.o</file>
       <file>$PROJ_DIR$\Debug\Obj\queue.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\tasks.pbi</file>
       <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\croutine.h</file>
       <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\cmsis_os.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\timers.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cmsis_os.pbi</file>
       <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
       <file>$PROJ_DIR$\Debug\Obj\list.o</file>
       <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
       <file>$PROJ_DIR$\Debug\Obj\list.pbi</file>
-      <file>$PROJ_DIR$\..\readme.txt</file>
+      <file>$PROJ_DIR$\..\Src\system_stm32f4xx.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f40_41xxx.s</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\croutine.c</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\event_groups.c</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\list.c</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\port.c</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portasm.s</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\queue.c</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\tasks.c</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\timers.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</file>
+      <file>$PROJ_DIR$\..\Src\freertos.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h</file>
+      <file>$PROJ_DIR$\..\Src\main.c</file>
+      <file>$PROJ_DIR$\..\Src\functions.c</file>
+      <file>$PROJ_DIR$\..\Src\stm32f4xx_it.c</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL\stm324xg_eval.c</file>
+      <file>$PROJ_DIR$\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL\stm324xg_eval_lcd.c</file>
+      <file>$PROJ_DIR$\..\Src\XPT2046.c</file>
+      <file>$PROJ_DIR$\..\Inc\XPT2046.h</file>
+      <file>$PROJ_DIR$\..\Inc\functions.h</file>
+      <file>$PROJ_DIR$\..\Inc\global.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.pbi</file>
+      <file>$PROJ_DIR$\..\Inc\FreeRTOSConfig.h</file>
     </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 22 64</file>
+        </tool>
+      </outputs>
+    </file>
     <file>
       <name>$PROJ_DIR$\..\freertos.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 178</file>
+          <file> 103</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 192</file>
+          <file> 116</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 201</file>
+          <file> 126</file>
         </tool>
       </outputs>
     </file>
@@ -259,15 +227,15 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 23</file>
+          <file> 18</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 117</file>
+          <file> 58</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 115</file>
+          <file> 57</file>
         </tool>
       </outputs>
     </file>
@@ -276,15 +244,15 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 147</file>
+          <file> 75</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 146</file>
+          <file> 48</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 137</file>
+          <file> 71</file>
         </tool>
       </outputs>
     </file>
@@ -293,15 +261,15 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 177</file>
+          <file> 101</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 189</file>
+          <file> 113</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 166</file>
+          <file> 91</file>
         </tool>
       </outputs>
     </file>
@@ -310,15 +278,15 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 168</file>
+          <file> 92</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 164</file>
+          <file> 89</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 194</file>
+          <file> 119</file>
         </tool>
       </outputs>
     </file>
@@ -327,13 +295,13 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 45</file>
+          <file> 37</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCARM</name>
-          <file> 3</file>
+          <file> 186</file>
         </tool>
       </inputs>
     </file>
@@ -342,244 +310,68 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 49</file>
+          <file> 44</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCARM</name>
-          <file> 3 172 186 163 34 193 25 29 26</file>
+          <file> 186 97 111 87 28 118 19 21 20</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portasm.s</name>
+      <name>$PROJ_DIR$\Debug\Exe\Project.out</name>
       <outputs>
         <tool>
-          <name>AARM</name>
-          <file> 217</file>
+          <name>ILINK</name>
+          <file> 22</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>AARM</name>
-          <file> 2</file>
+          <name>ILINK</name>
+          <file> 35 140 136 142 116 113 114 150 48 51 130 141 138 26 73 93 70 13 67 58 49 78 104 98 12 68 56 137 132 89 15 52 23 86</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\queue.c</name>
+      <name>$PROJ_DIR$\..\system_stm32f4xx.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 219</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 216</file>
+          <file> 65</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 181</file>
+          <file> 95</file>
         </tool>
       </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 186 225 8 209 222 34 163 204 24 172 214 20 36 227 22 13 29 10 2 6 26 193 25 14</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 227 186 163 34 193 25 29 26 225 222 204 22 10 172 2 24 6 14 214 36 20 8 209 13</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\event_groups.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 208</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 218</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 185</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 193 24 12 29 186 172 20 17 214 36 22 163 26 209 227 8 225 25 10 2 6 34 14</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 227 186 163 34 193 25 29 26 225 22 10 172 2 24 6 14 214 36 20 8 209 17 12</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\list.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 228</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 226</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 167</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 26 186 193 225 22 29 25 163 14 227 209 34 10 172 2 24 6 36 214 20</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 227 186 163 34 193 25 29 26 225 22 10 172 2 24 6 14 214 36 20 209</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 188</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 97</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 140</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 163 43 26 35 46 195 80 186 132 193 36 32 155 42 120 172 29 25 165 48 199 34 174 4 39 198</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 42 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 174 32 4 165 39 46 198 155</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\croutine.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 212</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 211</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 176</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 186 24 34 163 14 8 10 172 2 6 22 221 225 29 26 193 25 214 20 209 36</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 22 10 186 163 34 193 25 29 26 225 172 2 24 6 14 214 36 20 8 209 221</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\timers.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 224</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 207</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 179</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 8 163 17 29 186 34 227 22 13 225 26 193 25 14 10 172 2 24 6 214 20 36 209</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 227 186 163 34 193 25 29 26 225 22 10 172 2 24 6 14 214 36 20 8 209 13 17</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\tasks.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 220</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 213</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 183</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 163 22 225 29 25 186 222 17 26 204 36 227 8 210 34 193 14 10 172 2 24 6 214 20 209</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 227 186 163 34 193 25 29 26 225 222 204 22 10 172 2 24 6 14 214 36 20 8 209 17 210</file>
-        </tool>
-      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\Src\system_stm32f4xx.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 129</file>
+          <file> 65</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 116</file>
+          <file> 56</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 170</file>
+          <file> 95</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 186 198 43 199 4 48 172 34 174 39 132 120 35 195 163 29 26 193 25 80 36 32 165 46 42 155</file>
+          <file> 111 122 38 123 177 43 97 28 96 34 69 59 29 120 87 21 20 118 19 165 30 25 88 40 36 79</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 3 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 174 32 4 165 39 46 198 42 155</file>
+          <file> 186 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 96 25 177 88 34 40 122 36 79</file>
         </tool>
       </inputs>
     </file>
@@ -588,34 +380,88 @@
       <outputs>
         <tool>
           <name>AARM</name>
-          <file> 31</file>
+          <file> 26</file>
         </tool>
       </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\croutine.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 16 28 87 3 1 5 97 188 0 17 145 149 21 20 118 19 139 14 134 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 17 5 111 87 28 118 19 21 20 149 97 188 16 0 3 139 30 14 1 134 145</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 223</file>
+          <file> 148</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 215</file>
+          <file> 140</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 187</file>
+          <file> 112</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 199 186 36 25 163 12 7 29 26 193 13 209 222 225 204 34 172 8 14 10 22 17 11 80 2 24 6 214 20</file>
+          <file> 123 111 30 19 87 7 2 21 20 118 8 134 146 149 129 28 97 1 3 5 17 9 6 165 188 16 0 139 14</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 3 222 186 163 34 193 25 29 26 225 204 7 172 10 199 80 36 22 2 24 6 14 214 20 8 209 17 13 11 12</file>
+          <file> 186 146 111 87 28 118 19 21 20 149 129 2 97 5 123 165 30 17 188 16 0 3 139 14 1 134 9 8 6 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\event_groups.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118 16 7 21 111 97 14 9 139 30 17 87 20 134 151 1 149 19 5 188 0 28 3</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 151 111 87 28 118 19 21 20 149 17 5 97 188 16 0 3 139 30 14 1 134 9 7</file>
         </tool>
       </inputs>
     </file>
@@ -624,25 +470,52 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 191</file>
+          <file> 115</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 190</file>
+          <file> 114</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 182</file>
+          <file> 106</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 172 29 8 10 6 34 2 225 163 186 24 14 227 22 26 193 25 36 214 20 209</file>
+          <file> 97 21 1 5 0 28 188 149 87 111 16 3 151 17 20 118 19 30 139 14 134</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 3 227 186 163 34 193 25 29 26 225 22 10 172 2 24 6 14 214 36 20 8 209</file>
+          <file> 186 151 111 87 28 118 19 21 20 149 17 5 97 188 16 0 3 139 30 14 1 134</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\list.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 111 118 149 17 21 19 87 3 151 134 28 5 97 188 16 0 30 139 14</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 151 111 87 28 118 19 21 20 149 17 5 97 188 16 0 3 139 30 14 134</file>
         </tool>
       </inputs>
     </file>
@@ -651,25 +524,148 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 205</file>
+          <file> 127</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 206</file>
+          <file> 130</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 203</file>
+          <file> 128</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 163 193 22 24 29 26 209 8 186 10 172 2 6 25 36 225 34 14 214 20</file>
+          <file> 87 118 17 16 21 20 134 1 111 5 97 188 0 19 30 149 28 3 139 14</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 3 36 186 22 10 163 34 193 25 29 26 225 172 2 24 6 14 214 20 8 209</file>
+          <file> 186 30 111 17 5 87 28 118 19 21 20 149 97 188 16 0 3 139 14 1 134</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portasm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 188</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 149 1 134 146 28 87 129 16 97 139 14 30 151 17 8 21 5 188 0 20 118 19 3</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 151 111 87 28 118 19 21 20 149 146 129 17 5 97 188 16 0 3 139 30 14 1 134 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\tasks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87 17 149 21 19 111 146 9 20 129 30 151 1 135 28 118 3 5 97 188 16 0 139 14 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 151 111 87 28 118 19 21 20 149 146 129 17 5 97 188 16 0 3 139 30 14 1 134 9 135</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\Third_Party\FreeRTOS\Source\timers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 87 9 21 111 28 151 17 8 149 20 118 19 3 5 97 188 16 0 139 14 30 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 151 111 87 28 118 19 21 20 149 17 5 97 188 16 0 3 139 30 14 1 134 8 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87 38 20 29 40 120 165 111 69 118 30 25 79 36 59 97 21 19 88 43 123 28 96 177 34 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 36 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 96 25 177 88 34 40 122 79</file>
         </tool>
       </inputs>
     </file>
@@ -678,25 +674,133 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 197</file>
+          <file> 117</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 135</file>
+          <file> 70</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 88</file>
+          <file> 50</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 186 174 43 120 34 199 172 39 132 48 36 4 198 35 195 163 29 26 193 25 80 32 165 46 42 155</file>
+          <file> 111 96 38 59 28 123 97 34 69 43 30 177 122 29 120 87 21 20 118 19 165 25 88 40 36 79</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 3 174 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 32 4 165 39 46 198 42 155</file>
+          <file> 186 96 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 25 177 88 34 40 122 36 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 38 122 79 69 123 177 59 97 28 96 34 43 29 120 87 21 20 118 19 165 30 25 88 40 36</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 79 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 96 25 177 88 34 40 122 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 122 69 123 177 38 59 97 28 96 34 25 43 29 120 87 21 20 118 19 165 30 88 40 36 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 25 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 96 177 88 34 40 122 36 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\freertos.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 97 87 20 16 111 118 139 17 5 188 0 149 21 19 3 30 1 14 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 17 5 111 87 28 118 19 21 20 149 97 188 16 0 3 139 30 14 1 134</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 123 111 177 122 38 59 97 28 96 34 43 29 120 87 21 20 118 19 165 30 25 88 40 36 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 177 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 96 25 88 34 40 122 36 79</file>
         </tool>
       </inputs>
     </file>
@@ -705,11 +809,65 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 138</file>
+          <file> 72</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 149</file>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120 165 111 29 87 20 40 43 118 30 25 79 38 21 19 88 36 10 69 59 97 123 28 96 177 34 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 10 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 96 25 177 88 34 40 122 36 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 38 120 118 165 36 21 20 88 177 97 87 19 25 40 79 69 59 43 123 111 28 30 96 34 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 88 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 96 25 177 34 40 122 36 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98</file>
         </tool>
         <tool>
           <name>__cstat</name>
@@ -719,92 +877,11 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 195 80 186 35 163 26 46 48 193 36 32 155 43 29 25 165 42 15 132 120 172 199 34 174 4 39 198</file>
+          <file> 21 88 20 38 177 29 120 118 165 36 34 69 59 97 43 87 19 25 40 79 123 111 28 30 96 122</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 3 15 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 174 32 4 165 39 46 198 42 155</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 175</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 131</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 96</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 186 198 132 199 4 43 120 172 34 174 39 32 48 35 195 163 29 26 193 25 80 36 165 46 42 155</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 32 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 174 4 165 39 46 198 42 155</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 157</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 180</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 156</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 35 43 195 193 80 42 29 26 165 4 172 163 25 32 46 155 132 120 48 199 186 34 36 174 39 198</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 165 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 174 32 4 39 46 198 42 155</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 47</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 18</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 9</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 186 43 198 155 132 199 4 120 172 34 174 39 48 35 195 163 29 26 193 25 80 36 32 165 46 42</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 155 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 174 32 4 165 39 46 198 42</file>
+          <file> 186 34 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 96 25 177 88 40 122 36 79</file>
         </tool>
       </inputs>
     </file>
@@ -813,52 +890,25 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 113</file>
+          <file> 55</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 19</file>
+          <file> 12</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 16</file>
+          <file> 11</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 172 186 43 39 120 199 34 174 46 4 132 48 36 198 35 195 163 29 26 193 25 80 32 165 42 155</file>
+          <file> 97 111 38 34 59 123 28 96 40 177 69 43 30 122 29 120 87 21 20 118 19 165 25 88 36 79</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 3 46 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 174 32 4 165 39 198 42 155</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\Src\freertos.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 178</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 192</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 201</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 34 172 163 26 24 186 193 214 22 10 2 6 225 29 25 14 36 8 20 209</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 22 10 186 163 34 193 25 29 26 225 172 2 24 6 14 214 36 20 8 209</file>
+          <file> 186 40 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 96 25 177 88 34 122 36 79</file>
         </tool>
       </inputs>
     </file>
@@ -867,94 +917,25 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 127</file>
+          <file> 63</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 136</file>
+          <file> 68</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 130</file>
+          <file> 66</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 186 39 43 172 198 120 199 34 174 4 132 48 36 35 195 163 29 26 193 25 80 32 165 46 42 155</file>
+          <file> 111 34 38 97 122 59 123 28 96 177 69 43 30 29 120 87 21 20 118 19 165 25 88 40 36 79</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 3 198 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 174 32 4 165 39 46 42 155</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 184</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 173</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 196</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 29 165 26 43 4 35 195 193 80 42 39 132 120 172 48 163 25 32 46 155 199 186 34 36 174 198</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 39 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 174 32 4 165 46 198 42 155</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Debug\Exe\Project.out</name>
-      <outputs>
-        <tool>
-          <name>ILINK</name>
-          <file> 27</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ILINK</name>
-          <file> 41 215 211 218 192 189 190 226 146 97 206 217 216 31 139 171 135 18 131 117 54 149 180 173 19 136 116 213 207 164 21 93 28 162</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\Src\stm32f4xx_it.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 23</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 117</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 115</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 26 43 11 29 165 8 163 7 35 195 193 80 42 51 144 172 25 32 46 155 10 13 214 20 36 17 132 120 48 199 186 34 174 4 39 198 22 12 225 2 24 6 14 209</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 51 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 174 32 4 165 39 46 198 42 155 7 10 225 22 2 24 6 14 214 20 8 209 17 13 11 12 144</file>
+          <file> 186 122 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 96 25 177 88 34 40 36 79</file>
         </tool>
       </inputs>
     </file>
@@ -963,133 +944,25 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 147</file>
+          <file> 75</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 146</file>
+          <file> 48</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 137</file>
+          <file> 71</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 186 53 48 13 0 36 198 17 200 43 132 4 172 199 12 214 20 50 7 1 120 34 174 39 8 225 35 195 163 29 26 193 25 80 32 165 46 42 155 144 161 10 22 11 2 24 6 14 209</file>
+          <file> 111 47 43 8 185 30 122 9 125 38 69 177 97 123 7 139 14 45 2 184 59 28 96 34 1 149 29 120 87 21 20 118 19 165 25 88 40 36 79 76 83 5 17 6 188 16 0 3 134</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 3 50 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 174 32 4 165 39 46 198 42 155 1 0 200 144 161 7 10 225 22 2 24 6 14 214 20 8 209 17 13 11 12 53</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 5</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 54</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 124</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 132 199 186 4 198 43 120 172 34 174 39 48 35 195 163 29 26 193 25 80 36 32 165 46 42 155</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 4 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 174 32 165 39 46 198 42 155</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL\stm324xg_eval.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 145</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 139</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 110</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 43 199 202 120 186 34 174 15 172 39 144 160 132 48 36 4 198 35 195 163 29 26 193 25 80 32 165 46 42 155</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 144 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 174 32 4 165 39 46 198 42 155 15 160 202</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL\stm324xg_eval_lcd.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 158</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 171</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 123</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 50 29 165 26 43 169 35 195 193 80 42 1 200 144 161 172 163 25 32 46 155 132 120 48 199 186 34 36 174 4 39 198 0</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 200 144 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 174 32 4 165 39 46 198 42 155 161 169 50 1 0</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\Src\XPT2046.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 168</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 164</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 194</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 155 80 43 32 172 163 25 46 1 35 195 29 26 193 165 42 132 120 48 199 186 34 36 174 4 39 198</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3 1 43 132 172 186 163 34 193 25 29 26 35 80 36 199 195 120 48 174 32 4 165 39 46 198 42 155</file>
+          <file> 186 45 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 96 25 177 88 34 40 122 36 79 184 185 125 76 83 2 5 149 17 188 16 0 3 139 14 1 134 9 8 6 7 47</file>
         </tool>
       </inputs>
     </file>
@@ -1098,49 +971,135 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 177</file>
+          <file> 101</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 189</file>
+          <file> 113</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 166</file>
+          <file> 91</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 193 26 163 29 25 0 172 186 34</file>
+          <file> 118 20 87 21 19 185 97 111 28</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 3 0 172 186 163 34 193 25 29 26</file>
+          <file> 186 185 97 111 87 28 118 19 21 20</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>ILINK</name>
-          <file> 128 27</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\system_stm32f4xx.c</name>
+      <name>$PROJ_DIR$\..\Src\stm32f4xx_it.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 129</file>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 170</file>
+          <file> 57</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 38 6 21 88 1 87 2 29 120 118 165 36 41 76 97 19 25 40 79 5 8 139 14 30 9 69 59 43 123 111 28 96 177 34 122 17 7 149 188 16 0 3 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 41 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 96 25 177 88 34 40 122 36 79 2 5 149 17 188 16 0 3 139 14 1 134 9 8 6 7 76</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL\stm324xg_eval.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 123 124 59 111 28 96 10 97 34 76 85 69 43 30 177 122 29 120 87 21 20 118 19 165 25 88 40 36 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 76 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 96 25 177 88 34 40 122 36 79 10 85 124</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Utilities\STM32_EVAL\STM3240_41_G_EVAL\stm324xg_eval_lcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 21 88 20 38 94 29 120 118 165 36 184 125 76 83 97 87 19 25 40 79 69 59 43 123 111 28 30 96 177 34 122 185</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 125 76 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 96 25 177 88 34 40 122 36 79 83 94 45 184 185</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\XPT2046.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 165 38 25 97 87 19 40 184 29 120 21 20 118 88 36 69 59 43 123 111 28 30 96 177 34 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186 184 38 69 97 111 87 28 118 19 21 20 29 165 30 123 120 59 43 96 25 177 88 34 40 122 36 79</file>
+        </tool>
+      </inputs>
     </file>
     <forcedrebuild>
       <name>$PROJ_DIR$\..\freertos.c</name>
@@ -1163,11 +1122,15 @@
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c</name>
+      <name>$PROJ_DIR$\..\system_stm32f4xx.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
       <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
@@ -1179,7 +1142,15 @@
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c</name>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
@@ -1187,19 +1158,11 @@
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmc.c</name>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c</name>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
@@ -1211,19 +1174,7 @@
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmpi2c.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c</name>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
@@ -1231,55 +1182,7 @@
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_lptim.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_qspi.c</name>
-      <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c</name>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
@@ -1287,19 +1190,79 @@
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmpi2c.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_lptim.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_qspi.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
       <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sai.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>$PROJ_DIR$\..\system_stm32f4xx.c</name>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f446xx.s</name>
-      <tool>AARM</tool>
+      <name>$PROJ_DIR$\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c</name>
+      <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
       <name>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f401xx.s</name>
+      <tool>AARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f410xx.s</name>
+      <tool>AARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f411xe.s</name>
       <tool>AARM</tool>
     </forcedrebuild>
     <forcedrebuild>
@@ -1311,15 +1274,11 @@
       <tool>AARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f410xx.s</name>
+      <name>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f446xx.s</name>
       <tool>AARM</tool>
     </forcedrebuild>
     <forcedrebuild>
       <name>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f469_479xx.s</name>
-      <tool>AARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f411xe.s</name>
       <tool>AARM</tool>
     </forcedrebuild>
   </configuration>
